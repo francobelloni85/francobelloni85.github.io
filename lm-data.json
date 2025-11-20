@@ -11,8 +11,8 @@
     "5EI - SER": [
       {
         "title": "Lezione 1 – Ripasso livello trasporto",
-        "url": "https://link-notebook-4B-lez1",
-        "description": "Ripasso classi, metodi e proprietà.",
+        "url": "https://notebooklm.google.com/notebook/11c2d02a-d3a0-478f-8e54-3521c1adc4ea",
+        "description": "Ripasso livello trasporto, demultiplexing e socket",
         "date": "20-11-2025"
       }
     ],
@@ -25,9 +25,9 @@
       },
       {
         "title": "Lezione 2 – Cavi di rete e connettori",
-        "url": "https://notebooklm.google.com/notebook/fee72236-2b5c-4e60-a57a-cd481b3f1efe",
+        "url": "https://notebooklm.google.com/notebook/948507e1-a99d-4ac3-904b-33031836a012",
         "description": "Vari tipi di cavi di rete (rame, fibra ottica, wireless) e i relativi connettori (RJ45, LC, SC) utilizzati per stabilire connessioni fisiche tra dispositivi di rete.",
-        "date": "19-11-2025"
+        "date": "20-11-2025"
       }
     ]  
   }
