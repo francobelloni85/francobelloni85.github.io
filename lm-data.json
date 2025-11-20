@@ -1,0 +1,34 @@
+{
+  "2025-2026": {
+    "5EI - TEPI": [
+      {
+        "title": "Lezione 1 – Cloud Computing e Virtualizzazione: Ripasso e Concetti Chiave",
+        "url": "https://notebooklm.google.com/notebook/9d0903aa-b979-40f1-bf6a-8e8043ca18d6",
+        "description": "Le fonti esaminano in dettaglio i concetti di virtualizzazione e cloud computing, iniziando con una revisione approfondita di come la virtualizzazione consenta di ottimizzare l'uso delle risorse hardware che sono spesso sottoutilizzate.",
+        "date": "19-11-2025"
+      }
+    ],
+    "5EI - SER": [
+      {
+        "title": "Lezione 1 – Ripasso livello trasporto",
+        "url": "https://link-notebook-4B-lez1",
+        "description": "Ripasso classi, metodi e proprietà.",
+        "date": "20-11-2025"
+      }
+    ],
+    "4AI - SER": [
+      {
+        "title": "Lezione 1 – Introduzione livello 1",
+        "url": "https://notebooklm.google.com/notebook/fee72236-2b5c-4e60-a57a-cd481b3f1efe",
+        "description": "Le fonti esaminano in dettaglio il livello fisico delle reti, spiegando che la sua funzione primaria è convertire serie di zero e uno (dati digitali) in grandezze fisiche per la trasmissione.",
+        "date": "19-11-2025"
+      },
+      {
+        "title": "Lezione 2 – Cavi di rete e connettori",
+        "url": "https://notebooklm.google.com/notebook/fee72236-2b5c-4e60-a57a-cd481b3f1efe",
+        "description": "Vari tipi di cavi di rete (rame, fibra ottica, wireless) e i relativi connettori (RJ45, LC, SC) utilizzati per stabilire connessioni fisiche tra dispositivi di rete.",
+        "date": "19-11-2025"
+      }
+    ]  
+  }
+}
