@@ -14,6 +14,12 @@
         "url": "https://notebooklm.google.com/notebook/11c2d02a-d3a0-478f-8e54-3521c1adc4ea",
         "description": "Ripasso livello trasporto, demultiplexing e socket",
         "date": "20-11-2025"
+      },
+      {
+        "title": "Lezione 2 – UDP e TCP",
+        "url": "https://notebooklm.google.com/notebook/4270f5d8-81c0-441f-88a9-75d74d647a73",
+        "description": "Creazione socket UDP (indirizza i dati solo in base alla porta di destinazione) e TCP (richiede una quadrupla completa).",
+        "date": "21-11-2025"        
       }
     ],
     "4AI - SER": [
