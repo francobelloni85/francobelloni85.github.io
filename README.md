@@ -10,3 +10,5 @@ Contiene tre file:
 Pubblicato tramite **GitHub Pages** dal branch `main`.
 
 Per aggiornare il sito basta modificare `lm-data.json` e fare commit.
+
+Sito live: [https://francobelloni85.github.io](https://francobelloni85.github.io/) 
