@@ -55,6 +55,20 @@
                 "description": "Revisione del ciclo di vita della CPU: Fetch, Decode, Execute.",
                 "date": "25-11-2025"
             }
+        ],
+        "1BE - INF": [
+            {
+                "title": "Lezione 1 – Ripasso Teoria Hardware e Software",
+                "url": "https://notebooklm.google.com/notebook/1416fb0d-4717-46a0-84a7-68f5833beba5",
+                "description": "Revisione teorica sui concetti fondamentali di hardware e software del computer.",
+                "date": "25-11-2025"
+            },
+            {
+                "title": "Lezione 2 – Ripasso Ciclo CPU: Fetch, Decode, Execute",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "Revisione del ciclo di vita della CPU: Fetch, Decode, Execute.",
+                "date": "25-11-2025"
+            }
         ]
     }
 }
