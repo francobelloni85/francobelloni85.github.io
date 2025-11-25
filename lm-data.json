@@ -1,46 +1,60 @@
 {
-  "2025-2026": {
-    "5EI - TEPI": [
-      {
-        "title": "Lezione 1 – Cloud Computing e Virtualizzazione: Ripasso e Concetti Chiave",
-        "url": "https://notebooklm.google.com/notebook/9d0903aa-b979-40f1-bf6a-8e8043ca18d6",
-        "description": "Le fonti esaminano in dettaglio i concetti di virtualizzazione e cloud computing, iniziando con una revisione approfondita di come la virtualizzazione consenta di ottimizzare l'uso delle risorse hardware che sono spesso sottoutilizzate.",
-        "date": "19-11-2025"
-      },
-      {
-        "title": "Lezione 2 – Modelli di Cloud Computing e Ruoli Aziendali",
-        "url": "https://notebooklm.google.com/notebook/f522a48a-715d-49bd-81ea-718dc4e4436d",
-        "description": "Si esaminano le diverse esigenze infrastrutturali delle aziende, distinguendo tra il lavoro di un contabile che necessita solo di Excel e quello di uno sviluppatore che lavora sul codice.",
-        "date": "24-11-2025"
-      }
-    ],
-    "5EI - SER": [
-      {
-        "title": "Lezione 1 – Ripasso livello trasporto",
-        "url": "https://notebooklm.google.com/notebook/11c2d02a-d3a0-478f-8e54-3521c1adc4ea",
-        "description": "Ripasso livello trasporto, demultiplexing e socket",
-        "date": "20-11-2025"
-      },
-      {
-        "title": "Lezione 2 – UDP e TCP",
-        "url": "https://notebooklm.google.com/notebook/4270f5d8-81c0-441f-88a9-75d74d647a73",
-        "description": "Creazione socket UDP (indirizza i dati solo in base alla porta di destinazione) e TCP (richiede una quadrupla completa).",
-        "date": "21-11-2025"        
-      }
-    ],
-    "4AI - SER": [
-      {
-        "title": "Lezione 1 – Introduzione livello 1",
-        "url": "https://notebooklm.google.com/notebook/fee72236-2b5c-4e60-a57a-cd481b3f1efe",
-        "description": "Le fonti esaminano in dettaglio il livello fisico delle reti, spiegando che la sua funzione primaria è convertire serie di zero e uno (dati digitali) in grandezze fisiche per la trasmissione.",
-        "date": "19-11-2025"
-      },
-      {
-        "title": "Lezione 2 – Cavi di rete e connettori",
-        "url": "https://notebooklm.google.com/notebook/948507e1-a99d-4ac3-904b-33031836a012",
-        "description": "Vari tipi di cavi di rete (rame, fibra ottica, wireless) e i relativi connettori (RJ45, LC, SC) utilizzati per stabilire connessioni fisiche tra dispositivi di rete.",
-        "date": "20-11-2025"
-      }
-    ]  
-  }
+    "2025-2026": {
+        "5EI - TEPI": [
+            {
+                "title": "Lezione 1 – Cloud Computing e Virtualizzazione: Ripasso e Concetti Chiave",
+                "url": "https://notebooklm.google.com/notebook/9d0903aa-b979-40f1-bf6a-8e8043ca18d6",
+                "description": "Le fonti esaminano in dettaglio i concetti di virtualizzazione e cloud computing, iniziando con una revisione approfondita di come la virtualizzazione consenta di ottimizzare l'uso delle risorse hardware che sono spesso sottoutilizzate.",
+                "date": "19-11-2025"
+            },
+            {
+                "title": "Lezione 2 – Modelli di Cloud Computing e Ruoli Aziendali",
+                "url": "https://notebooklm.google.com/notebook/f522a48a-715d-49bd-81ea-718dc4e4436d",
+                "description": "Si esaminano le diverse esigenze infrastrutturali delle aziende, distinguendo tra il lavoro di un contabile che necessita solo di Excel e quello di uno sviluppatore che lavora sul codice.",
+                "date": "24-11-2025"
+            }
+        ],
+        "5EI - SER": [
+            {
+                "title": "Lezione 1 – Ripasso livello trasporto",
+                "url": "https://notebooklm.google.com/notebook/11c2d02a-d3a0-478f-8e54-3521c1adc4ea",
+                "description": "Ripasso livello trasporto, demultiplexing e socket",
+                "date": "20-11-2025"
+            },
+            {
+                "title": "Lezione 2 – UDP e TCP",
+                "url": "https://notebooklm.google.com/notebook/4270f5d8-81c0-441f-88a9-75d74d647a73",
+                "description": "Creazione socket UDP (indirizza i dati solo in base alla porta di destinazione) e TCP (richiede una quadrupla completa).",
+                "date": "21-11-2025"
+            }
+        ],
+        "4AI - SER": [
+            {
+                "title": "Lezione 1 – Introduzione livello 1",
+                "url": "https://notebooklm.google.com/notebook/fee72236-2b5c-4e60-a57a-cd481b3f1efe",
+                "description": "Le fonti esaminano in dettaglio il livello fisico delle reti, spiegando che la sua funzione primaria è convertire serie di zero e uno (dati digitali) in grandezze fisiche per la trasmissione.",
+                "date": "19-11-2025"
+            },
+            {
+                "title": "Lezione 2 – Cavi di rete e connettori",
+                "url": "https://notebooklm.google.com/notebook/948507e1-a99d-4ac3-904b-33031836a012",
+                "description": "Vari tipi di cavi di rete (rame, fibra ottica, wireless) e i relativi connettori (RJ45, LC, SC) utilizzati per stabilire connessioni fisiche tra dispositivi di rete.",
+                "date": "20-11-2025"
+            }
+        ],
+        "1AE - INF": [
+            {
+                "title": "Lezione 1 – Ripasso Teoria Hardware e Software",
+                "url": "https://notebooklm.google.com/notebook/15381be7-a7b7-4b3b-a231-45864cb47fb6",
+                "description": "Revisione teorica sui concetti fondamentali di hardware e software del computer.",
+                "date": "25-11-2025"
+            },
+            {
+                "title": "Lezione 2 – Ripasso Ciclo CPU: Fetch, Decode, Execute",
+                "url": "https://notebooklm.google.com/notebook/25b84b0e-2019-4ac9-a3db-f4ea4b379961",
+                "description": "Revisione del ciclo di vita della CPU: Fetch, Decode, Execute.",
+                "date": "25-11-2025"
+            }
+        ]
+    }
 }
