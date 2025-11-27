@@ -26,6 +26,12 @@
                 "url": "https://notebooklm.google.com/notebook/4270f5d8-81c0-441f-88a9-75d74d647a73",
                 "description": "Creazione socket UDP (indirizza i dati solo in base alla porta di destinazione) e TCP (richiede una quadrupla completa).",
                 "date": "21-11-2025"
+            },
+            {
+                "title": "Lezione 3 – UDP",
+                "url": "https://notebooklm.google.com/notebook/4270f5d8-81c0-441f-88a9-75d74d647a73",
+                "description": " L'attenzione si sposta poi sull'User Datagram Protocol (UDP), identificato come un protocollo best effort",
+                "date": "27-11-2025"
             }
         ],
         "4AI - SER": [
