@@ -1,3 +1,4 @@
+
 {
     "2025-2026": {
         "5EI - TEPI": [
@@ -38,6 +39,12 @@
                 "url": "https://notebooklm.google.com/notebook/8beabae9-71c7-4757-b6e3-1595d485746b",
                 "description": " L'attenzione si sposta poi sull'User Datagram Protocol (UDP), identificato come un protocollo best effort",
                 "date": "27-11-2025"
+            },
+            {
+                "title": "Lezione 4 – UDP",
+                "url": "https://notebooklm.google.com/notebook/881ed363-fd62-4486-b264-aa72ee944176",
+                "description": " Usi del protocollo UPD - spiegazione sommaria del DSN",
+                "date": "28-11-2025"
             }
         ],
         "4AI - SER": [
