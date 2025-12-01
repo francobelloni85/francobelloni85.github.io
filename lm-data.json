@@ -1,4 +1,3 @@
-
 {
     "2025-2026": {
         "5EI - TEPI": [
@@ -20,6 +19,13 @@
                 "description": " In passato, le applicazioni venivano costruite come strutture monolitiche ospitate su un singolo server, un approccio che limitava la scalabilità e rendeva l'intero sistema vulnerabile a blocchi durante i picchi di traffico",
                 "date": "26-11-2025"
             }
+			,
+            {
+                "title": "Lezione 4 – Tipi di cloud",
+                "url": "https://notebooklm.google.com/notebook/308f8a87-2d6c-4d55-b0a5-c7f8976dac8d",
+                "description": "panoramica sui diversi modelli di distribuzione delle risorse IT, mettendo in contrasto la proprietà di hardware, che comporta costi iniziali e una rapida obsolescenza, con il modello del noleggio.",
+                "date": "01-12-2025"
+            }			
         ],
         "5EI - SER": [
             {
