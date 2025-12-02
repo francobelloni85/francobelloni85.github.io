@@ -85,6 +85,12 @@
                 "url": "https://notebooklm.google.com/notebook/25b84b0e-2019-4ac9-a3db-f4ea4b379961",
                 "description": "Revisione del ciclo di vita della CPU: Fetch, Decode, Execute.",
                 "date": "25-11-2025"
+            },
+            {
+                "title": "Lezione 3 – Il SO",
+                "url": "https://notebooklm.google.com/notebook/9f733cd8-8436-443c-b4c5-eb9e8d02cd2d",
+                "description": "Spiegazioni sulle funzioni fondamentali di un Sistema Operativo (SO)",
+                "date": "02-12-2025"
             }
         ],
         "1BE - INF": [
@@ -99,6 +105,12 @@
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "Revisione del ciclo di vita della CPU: Fetch, Decode, Execute.",
                 "date": "25-11-2025"
+            },
+            {
+                "title": "Lezione 3 – Il sistema operativo",
+                "url": "https://notebooklm.google.com/notebook/cb93e333-e80b-40a9-82e6-2e9fc531d5ab",
+                "description": "Ruolo e compiti del sistema operativo: scheduler - ram - file system.",
+                "date": "02-12-2025"
             }
         ]
     }
