@@ -18,14 +18,13 @@
                 "url": "https://notebooklm.google.com/notebook/5ffb1e6f-9b80-4d1a-92c1-2128af7d47b4",
                 "description": " In passato, le applicazioni venivano costruite come strutture monolitiche ospitate su un singolo server, un approccio che limitava la scalabilità e rendeva l'intero sistema vulnerabile a blocchi durante i picchi di traffico",
                 "date": "26-11-2025"
-            }
-			,
+            },
             {
                 "title": "Lezione 4 – Tipi di cloud",
                 "url": "https://notebooklm.google.com/notebook/308f8a87-2d6c-4d55-b0a5-c7f8976dac8d",
                 "description": "panoramica sui diversi modelli di distribuzione delle risorse IT, mettendo in contrasto la proprietà di hardware, che comporta costi iniziali e una rapida obsolescenza, con il modello del noleggio.",
                 "date": "01-12-2025"
-            }			
+            }
         ],
         "5EI - SER": [
             {
@@ -66,7 +65,7 @@
                 "description": "Vari tipi di cavi di rete (rame, fibra ottica, wireless) e i relativi connettori (RJ45, LC, SC) utilizzati per stabilire connessioni fisiche tra dispositivi di rete.",
                 "date": "20-11-2025"
             },
-{
+            {
                 "title": "Lezione 3 – Multiplexing and Access",
                 "url": "https://notebooklm.google.com/notebook/57c01076-6a00-4ecb-b614-e41b3ab9fed2",
                 "description": "Metodi fondamentali per condividere un unico canale di comunicazione tra più host.",
@@ -91,6 +90,12 @@
                 "url": "https://notebooklm.google.com/notebook/9f733cd8-8436-443c-b4c5-eb9e8d02cd2d",
                 "description": "Spiegazioni sulle funzioni fondamentali di un Sistema Operativo (SO)",
                 "date": "02-12-2025"
+            },
+            {
+                "title": "Lezione 4 – Il SO 2",
+                "url": "https://notebooklm.google.com/notebook/20c894ef-fda1-482d-8146-45ff9762194c",
+                "description": "Interfaccia grafica e linea di comando SO",
+                "date": "09-12-2025"
             }
         ],
         "1BE - INF": [
@@ -111,6 +116,12 @@
                 "url": "https://notebooklm.google.com/notebook/cb93e333-e80b-40a9-82e6-2e9fc531d5ab",
                 "description": "Ruolo e compiti del sistema operativo: scheduler - ram - file system.",
                 "date": "02-12-2025"
+            },
+            {
+                "title": "Lezione 4 – licenze software",
+                "url": "https://notebooklm.google.com/notebook/2791f41d-363b-4c65-b746-51a5f99dd0a5",
+                "description": "Categoria dei vari software e delle licenze associate",
+                "date": "09-12-2025"
             }
         ]
     }
