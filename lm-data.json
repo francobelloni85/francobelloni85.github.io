@@ -108,6 +108,12 @@
                 "url": "https://notebooklm.google.com/notebook/20c894ef-fda1-482d-8146-45ff9762194c",
                 "description": "Interfaccia grafica e linea di comando SO",
                 "date": "09-12-2025"
+            }, 
+            {
+                "title": "Lezione 5 – Introduzione sistema binario",
+                "url": "https://notebooklm.google.com/notebook/20c894ef-fda1-482d-8146-45ff9762194c",
+                "description": "Codifica del sistema binario ed introduzione alle codifiche",
+                "date": "16-12-2025"
             }
         ],
         "1BE - INF": [
@@ -134,6 +140,12 @@
                 "url": "https://notebooklm.google.com/notebook/2791f41d-363b-4c65-b746-51a5f99dd0a5",
                 "description": "Categoria dei vari software e delle licenze associate",
                 "date": "09-12-2025"
+            }, 
+            {
+                "title": "Lezione 5 – Introduzione sistema binario",
+                "url": "https://notebooklm.google.com/notebook/77bf4160-749d-4f73-943a-5b4c9f063919",
+                "description": "Codifica del sistema binario ed introduzione alle codifiche",
+                "date": "16-12-2025"
             }
         ]
     }
