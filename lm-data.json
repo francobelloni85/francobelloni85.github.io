@@ -83,6 +83,20 @@
                 "description": "Metodi fondamentali per condividere un unico canale di comunicazione tra più host.",
                 "date": "27-11-2025"
             }
+            ,
+            {
+                "title": "Lezione 4 – Introduzione data link layer",
+                "url": "https://notebooklm.google.com/notebook/1a65f3d7-5ac5-4a54-ac21-ed2cecb8cdd2",
+                "description": "Questi appunti illustrano il funzionamento del livello data link nel modello di rete, focalizzandosi sul processo di incapsulamento dei dati provenienti dai livelli superiori.",
+                "date": "17-12-2025"
+            }
+            ,
+            {
+                "title": "Lezione 5 – Scopo del data link layer",
+                "url": "https://notebooklm.google.com/notebook/32ea4689-d73d-496c-a32a-308c76dc0220",
+                "description": "Queste fonti introducono il Data Link Layer, il livello dell'architettura di rete responsabile del trasferimento di dati tra nodi fisicamente adiacenti all'interno di una stessa rete locale",
+                "date": "18-12-2025"
+            }
         ],
         "1AE - INF": [
             {
