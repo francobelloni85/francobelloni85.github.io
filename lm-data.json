@@ -96,7 +96,13 @@
                 "url": "https://notebooklm.google.com/notebook/32ea4689-d73d-496c-a32a-308c76dc0220",
                 "description": "Queste fonti introducono il Data Link Layer, il livello dell'architettura di rete responsabile del trasferimento di dati tra nodi fisicamente adiacenti all'interno di una stessa rete locale",
                 "date": "18-12-2025"
-            }
+            },
+            {
+                "title": "Lezione 6 – Servizi del data link layer",
+                "url": "https://notebooklm.google.com/notebook/84221bfc-9456-4e0e-9b1e-c2eb59415a59",
+                "description": "Accenno ai vari servizi del livello. Viene posta grande enfasi sul problema dell'accesso multiplo, ovvero la coordinazione necessaria quando più dispositivi condividono lo stesso canale di comunicazione.",
+                "date": "18-12-2025"
+            }            
         ],
         "1AE - INF": [
             {
