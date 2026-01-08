@@ -102,7 +102,13 @@
                 "url": "https://notebooklm.google.com/notebook/84221bfc-9456-4e0e-9b1e-c2eb59415a59",
                 "description": "Accenno ai vari servizi del livello. Viene posta grande enfasi sul problema dell'accesso multiplo, ovvero la coordinazione necessaria quando più dispositivi condividono lo stesso canale di comunicazione.",
                 "date": "07-01-2026"
-            }            
+            },
+            {
+                "title": "Lezione 7 – Correzione degli errori",
+                "url": "https://notebooklm.google.com/notebook/a998ee93-8e5d-4f7b-a9d0-2f24cc68d97b",
+                "description": "Questi appunti illustrano le funzioni fondamentali del Data Link Layer, soffermandosi in particolare sui meccanismi di gestione degli errori durante la trasmissione dei dati.",
+                "date": "08-01-2026"
+            }
         ],
         "1AE - INF": [
             {
