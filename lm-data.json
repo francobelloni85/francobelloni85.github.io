@@ -30,7 +30,13 @@
                 "url": "https://notebooklm.google.com/notebook/22e162fd-603b-4d3b-ac67-97ab8fb42ea2",
                 "description": "Punti di forza e debolezza del cloud per piccole aziende",
                 "date": "15-12-2025"
-            }
+            },
+            {
+                "title": "Lezione 6 – Virus e concluso tipi di cloud",
+                "url": "https://notebooklm.google.com/notebook/409acaaf-c9ba-4d5f-b072-8452ef08e7ce",
+                "description": "I testi e gli appunti grafici forniti illustrano i concetti fondamentali della sicurezza informatica (Virus) e delle architetture cloud.",
+                "date": "13-01-2026"
+            }            
         ],
         "5EI - SER": [
             {
@@ -152,6 +158,12 @@
                 "url": "https://notebooklm.google.com/notebook/8c76397e-c34a-4465-98fb-cbe8310bbb03",
                 "description": "Codifica del sistema binario ed introduzione alle codifiche.",
                 "date": "16-12-2025"
+            },
+            {
+                "title": "Lezione 6 – Sistema numerico binario",
+                "url": "https://notebooklm.google.com/notebook/a7942c92-0558-41f7-a155-98497595af8c",
+                "description": "Questi materiali didattici illustrano i principi fondamentali del sistema binario e le procedure per la conversione numerica tra base due e base dieci.",
+                "date": "13-01-2026"
             }
         ],
         "1BE - INF": [
@@ -184,6 +196,12 @@
                 "url": "https://notebooklm.google.com/notebook/77bf4160-749d-4f73-943a-5b4c9f063919",
                 "description": "Codifica del sistema binario ed introduzione alle codifiche",
                 "date": "16-12-2025"
+            },
+            {
+                "title": "Lezione 6 – Sistema numerico binario",
+                "url": "https://notebooklm.google.com/notebook/2fd8a23c-868a-4473-90bf-0ce8ce52f5ae",
+                "description": "Questi materiali didattici illustrano i principi fondamentali del sistema binario e le procedure per la conversione numerica tra base due e base dieci.",
+                "date": "13-01-2026"
             }
         ]
     }
