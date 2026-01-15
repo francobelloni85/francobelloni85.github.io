@@ -80,7 +80,13 @@
                 "url": "https://notebooklm.google.com/notebook/6e430519-f534-491a-97ef-445c52303e57",
                 "description": "Questi appunti illustrano il funzionamento del protocollo UDP, soffermandosi in particolare sulla struttura dei suoi pacchetti e sulla gestione degli indirizzi di origine e destinazione. Una sezione rilevante è dedicata ai meccanismi di controllo degli errori",
                 "date": "09-01-2026"
-            } 
+            },
+            {
+                "title": "Lezione 9 – TCP mattoni base",
+                "url": "https://notebooklm.google.com/notebook/56cf1466-12d2-479e-82b2-4a89a9ee49a8",
+                "description": "Questi estratti illustrano i principi fondamentali del trasferimento dati affidabile (RDT) all'interno delle reti informatiche",
+                "date": "15-01-2026"
+            }
         ],
         "4AI - SER": [
             {
@@ -132,6 +138,12 @@
                 "url": "https://notebooklm.google.com/notebook/aa5e382d-755c-493d-93ba-5314eed29f86",
                 "description": "Questi appunti illustrano i concetti fondamentali del multiple access all'interno delle reti informatiche, focalizzandosi sulla gestione della comunicazione tra più dispositivi",
                 "date": "14-01-2026"
+            },
+            {
+                "title": "Lezione 9 – protocolli di accesso multiplo",
+                "url": "https://notebooklm.google.com/notebook/ae3e22ee-052a-48f5-976e-2e2a41be68c1",
+                "description": "Queste fonti illustrano il funzionamento dei protocolli di accesso multiplo, essenziali per coordinare la comunicazione tra più nodi che condividono un unico canale trasmissivo.",
+                "date": "15-01-2026"
             }
         ],
         "1AE - INF": [
