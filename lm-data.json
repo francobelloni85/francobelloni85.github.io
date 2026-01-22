@@ -226,7 +226,13 @@
                 "url": "https://notebooklm.google.com/notebook/2fd8a23c-868a-4473-90bf-0ce8ce52f5ae",
                 "description": "Questi materiali didattici illustrano i principi fondamentali del sistema binario e le procedure per la conversione numerica tra base due e base dieci.",
                 "date": "13-01-2026"
-            }
+            },
+            {
+                "title": "Lezione 7 – Sistema numerico binario",
+                "url": "https://notebooklm.google.com/notebook/101287b9-fbb6-454e-ac76-b85b00e49eeb",
+                "description": "Questi appunti illustrano i principi fondamentali dell'algebra binaria, spiegando come i numeri vengano rappresentati attraverso una sequenza di bit.",
+                "date": "21-01-2026"
+            }            
         ]
     }
 }
