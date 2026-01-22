@@ -144,6 +144,12 @@
                 "url": "https://notebooklm.google.com/notebook/ae3e22ee-052a-48f5-976e-2e2a41be68c1",
                 "description": "Queste fonti illustrano il funzionamento dei protocolli di accesso multiplo, essenziali per coordinare la comunicazione tra più nodi che condividono un unico canale trasmissivo.",
                 "date": "15-01-2026"
+            },
+            {
+                "title": "Lezione 10 – introduzione protocolli random",
+                "url": "https://notebooklm.google.com/notebook/40ad9850-8d39-43ae-9131-21f8b9cb33ef",
+                "description": "Introduzione al protocollo ad accesso casuale come ALOHA, regole e come funzionamento.",
+                "date": "22-01-2026"
             }
         ],
         "1AE - INF": [
