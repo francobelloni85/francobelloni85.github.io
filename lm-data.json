@@ -86,6 +86,12 @@
                 "url": "https://notebooklm.google.com/notebook/56cf1466-12d2-479e-82b2-4a89a9ee49a8",
                 "description": "Questi estratti illustrano i principi fondamentali del trasferimento dati affidabile (RDT) all'interno delle reti informatiche",
                 "date": "15-01-2026"
+            },
+            {
+                "title": "Lezione 10 – TCP canale disturbato",
+                "url": "https://notebooklm.google.com/notebook/b6e45bcd-7a79-4592-850f-e0e168805ad5",
+                "description": "Questi estratti illustrano i principi fondamentali del trasferimento dati affidabile (RDT) all'interno delle reti informatiche",
+                "date": "23-01-2026"
             }
         ],
         "4AI - SER": [
@@ -150,7 +156,7 @@
                 "url": "https://notebooklm.google.com/notebook/40ad9850-8d39-43ae-9131-21f8b9cb33ef",
                 "description": "Introduzione al protocollo ad accesso casuale come ALOHA, regole e come funzionamento.",
                 "date": "22-01-2026"
-            }
+            }            
         ],
         "1AE - INF": [
             {
@@ -232,7 +238,13 @@
                 "url": "https://notebooklm.google.com/notebook/101287b9-fbb6-454e-ac76-b85b00e49eeb",
                 "description": "Questi appunti illustrano i principi fondamentali dell'algebra binaria, spiegando come i numeri vengano rappresentati attraverso una sequenza di bit.",
                 "date": "21-01-2026"
-            }            
+            },
+            {
+                "title": "Lezione 8 – Riepilogo I quadrimestre",
+                "url": "https://notebooklm.google.com/notebook/f83e1c5b-2985-4acf-bfaf-b3d4f04aeb18",
+                "description": "Riepilogo I quadrimestre: dal computer ed i suoi componenti alle licenze software",
+                "date": "22-01-2026"
+            }     
         ]
     }
 }
