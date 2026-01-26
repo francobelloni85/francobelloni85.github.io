@@ -36,7 +36,13 @@
                 "url": "https://notebooklm.google.com/notebook/409acaaf-c9ba-4d5f-b072-8452ef08e7ce",
                 "description": "I testi e gli appunti grafici forniti illustrano i concetti fondamentali della sicurezza informatica (Virus) e delle architetture cloud.",
                 "date": "13-01-2026"
-            }            
+            } ,
+            {
+                "title": "Lezione 7 – 5 caratteristiche cloud",
+                "url": "https://notebooklm.google.com/notebook/dcfc61ed-f7ad-4441-bbbb-e2c2c12b5b10",
+                "description": "Funzionamento del cloud computing evidenziandone i cinque pilastri fondamentali",
+                "date": "26-01-2026"
+            }
         ],
         "5EI - SER": [
             {
