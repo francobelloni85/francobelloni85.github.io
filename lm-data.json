@@ -42,6 +42,12 @@
                 "url": "https://notebooklm.google.com/notebook/dcfc61ed-f7ad-4441-bbbb-e2c2c12b5b10",
                 "description": "Funzionamento del cloud computing evidenziandone i cinque pilastri fondamentali",
                 "date": "26-01-2026"
+            },
+            {
+                "title": "Lezione 8 – Introduzione alla criptografia",
+                "url": "https://notebooklm.google.com/notebook/fe88c786-953e-403f-85eb-02b17b961827",
+                "description": "Questi materiali didattici offrono un'introduzione ai concetti fondamentali della crittografia, definita come un insieme di regole per proteggere la riservatezza dei messaggi tra un mittente e un destinatario. ",
+                "date": "28-01-2026"
             }
         ],
         "5EI - SER": [
@@ -162,7 +168,13 @@
                 "url": "https://notebooklm.google.com/notebook/40ad9850-8d39-43ae-9131-21f8b9cb33ef",
                 "description": "Introduzione al protocollo ad accesso casuale come ALOHA, regole e come funzionamento.",
                 "date": "22-01-2026"
-            }            
+            },
+            {
+                "title": "Lezione 10 – ALOHA",
+                "url": "https://notebooklm.google.com/notebook/f1ed6770-ddf6-4745-83ce-1c08cdef67af",
+                "description": "Queste fonti analizzano il funzionamento e le caratteristiche del protocollo Slotted ALOHA, un sistema di accesso casuale alla rete basato sulla suddivisione del tempo in slot sincronizzati",
+                "date": "22-01-2026"
+            }
         ],
         "1AE - INF": [
             {
