@@ -82,31 +82,25 @@
                 "date": "12-12-2025"
             },
             {
-                "title": "Lezione 6 – UDP ripasso",
-                "url": "https://notebooklm.google.com/notebook/a600e7a1-8508-4fc5-882c-b3fb35a51a67",
-                "description": " Ripasso uso UDP",
-                "date": "12-12-2025"
-            },
-            {
-                "title": "Lezione 7 – UDP controllo errori",
+                "title": "Lezione 6 – UDP controllo errori",
                 "url": "https://notebooklm.google.com/notebook/6e430519-f534-491a-97ef-445c52303e57",
                 "description": "Questi appunti illustrano il funzionamento del protocollo UDP, soffermandosi in particolare sulla struttura dei suoi pacchetti e sulla gestione degli indirizzi di origine e destinazione. Una sezione rilevante è dedicata ai meccanismi di controllo degli errori",
                 "date": "09-01-2026"
             },
             {
-                "title": "Lezione 9 – TCP mattoni base",
+                "title": "Lezione 7 – TCP mattoni base",
                 "url": "https://notebooklm.google.com/notebook/56cf1466-12d2-479e-82b2-4a89a9ee49a8",
                 "description": "Questi estratti illustrano i principi fondamentali del trasferimento dati affidabile (RDT) all'interno delle reti informatiche",
                 "date": "15-01-2026"
             },
             {
-                "title": "Lezione 10 – TCP canale disturbato",
+                "title": "Lezione 8 – TCP canale disturbato",
                 "url": "https://notebooklm.google.com/notebook/b6e45bcd-7a79-4592-850f-e0e168805ad5",
                 "description": "Questi estratti illustrano i principi fondamentali del trasferimento dati affidabile (RDT) all'interno delle reti informatiche",
                 "date": "23-01-2026"
             },
             {
-                "title": "Lezione 11 – TCP canale disturbato perdita pacchetti",
+                "title": "Lezione 9 – TCP canale disturbato perdita pacchetti",
                 "url": "https://notebooklm.google.com/notebook/b65e273e-30ec-4610-8888-233714d82668",
                 "description": "Questi materiali didattici analizzano l'evoluzione del protocollo TCP attraverso l'uso di macchine a stati finiti per gestire la comunicazione tra un mittente e un ricevitore.",
                 "date": "29-01-2026"
