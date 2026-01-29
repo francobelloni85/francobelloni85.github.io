@@ -44,11 +44,11 @@
                 "date": "26-01-2026"
             },
             {
-                "title": "Lezione 8 – introduzione della criptografia",
+                "title": "Lezione 8 – Introduzione alla criptografia",
                 "url": "https://notebooklm.google.com/notebook/fe88c786-953e-403f-85eb-02b17b961827",
-                "description": "Queste fonti illustrano i concetti fondamentali della crittografia, definendola come un insieme di regole matematiche per garantire la segretezza dei messaggi.",
-                "date": "27-01-2026"
-            }            
+                "description": "Questi materiali didattici offrono un'introduzione ai concetti fondamentali della crittografia, definita come un insieme di regole per proteggere la riservatezza dei messaggi tra un mittente e un destinatario. ",
+                "date": "28-01-2026"
+            }
         ],
         "5EI - SER": [
             {
@@ -176,17 +176,11 @@
                 "date": "22-01-2026"
             },
             {
-                "title": "Lezione 11 – Introduzione di ALOHA",
-                "url": "https://notebooklm.google.com/notebook/c79fd8d3-41d4-42dd-a4f1-41491a202e84",
-                "description": "Questi materiali illustrano il funzionamento del protocollo ALOHA.",
-                "date": "28-01-2026"
-            },
-            {
-                "title": "Lezione 12 – Prestazione di ALOHA",
+                "title": "Lezione 10 – ALOHA",
                 "url": "https://notebooklm.google.com/notebook/f1ed6770-ddf6-4745-83ce-1c08cdef67af",
-                "description": "Questi materiali illustrano il funzionamento e l'evoluzione dei protocolli di accesso multiplo nelle reti di computer, concentrandosi sul concetto di efficienza del canale.",
-                "date": "29-01-2026"
-            }            
+                "description": "Queste fonti analizzano il funzionamento e le caratteristiche del protocollo Slotted ALOHA, un sistema di accesso casuale alla rete basato sulla suddivisione del tempo in slot sincronizzati",
+                "date": "22-01-2026"
+            }
         ],
         "1AE - INF": [
             {
