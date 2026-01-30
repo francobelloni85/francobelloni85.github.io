@@ -104,7 +104,13 @@
                 "url": "https://notebooklm.google.com/notebook/b65e273e-30ec-4610-8888-233714d82668",
                 "description": "Questi materiali didattici analizzano l'evoluzione del protocollo TCP attraverso l'uso di macchine a stati finiti per gestire la comunicazione tra un mittente e un ricevitore.",
                 "date": "29-01-2026"
-            }            
+            },
+            {
+                "title": "Lezione 10 – TCP con timeout",
+                "url": "https://notebooklm.google.com/notebook/03ffc8dd-7160-4fa1-8b87-f197740cad30",
+                "description": "Viene spiegato come il sistema reagisca alla perdita di dati o conferme attraverso meccanismi di timeout.",
+                "date": "29-01-2026"
+            }
         ],
         "4AI - SER": [
             {
