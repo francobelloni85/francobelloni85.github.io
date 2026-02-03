@@ -48,7 +48,13 @@
                 "url": "https://notebooklm.google.com/notebook/fe88c786-953e-403f-85eb-02b17b961827",
                 "description": "Questi materiali didattici offrono un'introduzione ai concetti fondamentali della crittografia, definita come un insieme di regole per proteggere la riservatezza dei messaggi tra un mittente e un destinatario. ",
                 "date": "28-01-2026"
-            }
+            },
+            {
+                "title": "Lezione 9 – criptografia polialfabetica",
+                "url": "https://notebooklm.google.com/notebook/ea4b4e30-abe2-40f5-addb-d3f2e994beb2",
+                "description": " Per superare i limiti di Cesare, il cifrario polialfabetico usa una chiave ripetuta: più è lunga rispetto al messaggio, maggiore è la sicurezza, evitando pattern statistici prevedibili.",
+                "date": "02-02-2026"
+            }            
         ],
         "5EI - SER": [
             {
@@ -82,34 +88,34 @@
                 "date": "12-12-2025"
             },
             {
-                "title": "Lezione 6 – UDP controllo errori",
+                "title": "Lezione 6 – UDP ripasso",
+                "url": "https://notebooklm.google.com/notebook/a600e7a1-8508-4fc5-882c-b3fb35a51a67",
+                "description": " Ripasso uso UDP",
+                "date": "12-12-2025"
+            },
+            {
+                "title": "Lezione 7 – UDP controllo errori",
                 "url": "https://notebooklm.google.com/notebook/6e430519-f534-491a-97ef-445c52303e57",
                 "description": "Questi appunti illustrano il funzionamento del protocollo UDP, soffermandosi in particolare sulla struttura dei suoi pacchetti e sulla gestione degli indirizzi di origine e destinazione. Una sezione rilevante è dedicata ai meccanismi di controllo degli errori",
                 "date": "09-01-2026"
             },
             {
-                "title": "Lezione 7 – TCP mattoni base",
+                "title": "Lezione 9 – TCP mattoni base",
                 "url": "https://notebooklm.google.com/notebook/56cf1466-12d2-479e-82b2-4a89a9ee49a8",
                 "description": "Questi estratti illustrano i principi fondamentali del trasferimento dati affidabile (RDT) all'interno delle reti informatiche",
                 "date": "15-01-2026"
             },
             {
-                "title": "Lezione 8 – TCP canale disturbato",
+                "title": "Lezione 10 – TCP canale disturbato",
                 "url": "https://notebooklm.google.com/notebook/b6e45bcd-7a79-4592-850f-e0e168805ad5",
                 "description": "Questi estratti illustrano i principi fondamentali del trasferimento dati affidabile (RDT) all'interno delle reti informatiche",
                 "date": "23-01-2026"
             },
             {
-                "title": "Lezione 9 – TCP canale disturbato perdita pacchetti",
-                "url": "https://notebooklm.google.com/notebook/b65e273e-30ec-4610-8888-233714d82668",
-                "description": "Questi materiali didattici analizzano l'evoluzione del protocollo TCP attraverso l'uso di macchine a stati finiti per gestire la comunicazione tra un mittente e un ricevitore.",
-                "date": "29-01-2026"
-            },
-            {
-                "title": "Lezione 10 – TCP con timeout",
-                "url": "https://notebooklm.google.com/notebook/03ffc8dd-7160-4fa1-8b87-f197740cad30",
-                "description": "Viene spiegato come il sistema reagisca alla perdita di dati o conferme attraverso meccanismi di timeout.",
-                "date": "29-01-2026"
+                "title": "Lezione 11 – TCP windows",
+                "url": "https://notebooklm.google.com/notebook/b6e45bcd-7a79-4592-850f-e0e168805ad5",
+                "description": "I protocolli TCP migliorano l'efficienza del canale tramite il pipelining, inviando più pacchetti (n) simultaneamente. Si usano buffer per memorizzare dati e sequence numbers per l'ordine",
+                "date": "02-02-2026"
             }
         ],
         "4AI - SER": [
@@ -176,10 +182,16 @@
                 "date": "22-01-2026"
             },
             {
-                "title": "Lezione 10 – ALOHA",
+                "title": "Lezione 11 – ALOHA",
                 "url": "https://notebooklm.google.com/notebook/f1ed6770-ddf6-4745-83ce-1c08cdef67af",
                 "description": "Queste fonti analizzano il funzionamento e le caratteristiche del protocollo Slotted ALOHA, un sistema di accesso casuale alla rete basato sulla suddivisione del tempo in slot sincronizzati",
                 "date": "22-01-2026"
+            },
+            {
+                "title": "Lezione 12 – ARP + Cisco Packet Tracer introduzione",
+                "url": "https://notebooklm.google.com/notebook/c87f558a-105d-420a-9dd3-24f71b96904a",
+                "description": "Il testo illustra il protocollo ARP, usato per associare un IP noto al MAC address mancante tramite messaggi in broadcast. La lezione copre anche la configurazione base di switch Cisco.",
+                "date": "02-02-2026"
             }
         ],
         "1AE - INF": [
@@ -280,7 +292,13 @@
                 "url": "https://notebooklm.google.com/notebook/e8fc1b6a-3749-4b18-b871-1476be0addf8",
                 "description": "Questi documenti illustrano i fondamenti dell'algebra binaria, spiegando come convertire i numeri dal sistema decimale a quello in base due",
                 "date": "27-01-2026"
-            }           
+            },
+            {
+                "title": "Lezione 10 – Algebra di boole",
+                "url": "https://notebooklm.google.com/notebook/fb13f843-fa05-467e-a0f1-f392e1e506a5",
+                "description": "Questi documenti illustrano i fondamenti dell'algebra binaria, spiegando come convertire i numeri dal sistema decimale a quello in base due",
+                "date": "03-02-2026"
+            }
         ]
     }
 }
