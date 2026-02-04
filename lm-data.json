@@ -48,6 +48,18 @@
                 "url": "https://notebooklm.google.com/notebook/fe88c786-953e-403f-85eb-02b17b961827",
                 "description": "Questi materiali didattici offrono un'introduzione ai concetti fondamentali della crittografia, definita come un insieme di regole per proteggere la riservatezza dei messaggi tra un mittente e un destinatario. ",
                 "date": "28-01-2026"
+            },
+            {
+                "title": "Lezione 9 – Criptare con polialfabeti",
+                "url": "https://notebooklm.google.com/notebook/2d18b116-d697-4bb9-bd08-c4973e9b8dcb",
+                "description": "La crittografia polialfabetica supera i limiti del cifrario di Cesare contrastando l'analisi delle frequenze. Usando una chiave ripetuta, ogni lettera ha più mappature. La sicurezza aumenta con la lunghezza della chiave; l'ideale è una chiave lunga quanto il messaggio.",
+                "date": "03-02-2026"
+            },
+            {
+                "title": "Lezione 10 – Criptare con permutazioni",
+                "url": "https://notebooklm.google.com/notebook/2168c6ed-7aaa-496c-8f54-8c322c7f38c7",
+                "description": "Si confrontano i cifrari monoalfabetici, vulnerabili all'analisi delle frequenze, e quelli polialfabetici (Vigenère, poligrammi) per una maggiore sicurezza. Introdotti anche l'operatore XOR e la trasposizione.",
+                "date": "04-02-2026"
             }
         ],
         "5EI - SER": [
