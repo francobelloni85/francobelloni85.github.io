@@ -122,6 +122,12 @@
                 "url": "https://notebooklm.google.com/notebook/b6e45bcd-7a79-4592-850f-e0e168805ad5",
                 "description": "I protocolli TCP migliorano l'efficienza del canale tramite il pipelining, inviando più pacchetti (n) simultaneamente. Si usano buffer per memorizzare dati e sequence numbers per l'ordine",
                 "date": "02-02-2026"
+            },
+            {
+                "title": "Lezione 12 – TCP windows",
+                "url": "https://notebooklm.google.com/notebook/6c2d35b1-79d3-431d-9353-748f2ef46374",
+                "description": "I protocolli Go-Back-N e Selective Repeat gestiscono la sliding window nel TCP. In GBN, il ricevitore usa ACK cumulativi e scarta pacchetti fuori ordine.",
+                "date": "06-02-2026"
             }
         ],
         "4AI - SER": [
