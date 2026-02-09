@@ -60,6 +60,12 @@
                 "url": "https://notebooklm.google.com/notebook/2168c6ed-7aaa-496c-8f54-8c322c7f38c7",
                 "description": "Si confrontano i cifrari monoalfabetici, vulnerabili all'analisi delle frequenze, e quelli polialfabetici (Vigenère, poligrammi) per una maggiore sicurezza. Introdotti anche l'operatore XOR e la trasposizione.",
                 "date": "04-02-2026"
+            },
+            {
+                "title": "Lezione 11 – Enigma",
+                "url": "https://notebooklm.google.com/notebook/af9fc9bc-79ca-4852-9fc3-c142eb4c6c11",
+                "description": "La crittografia usa sostituzione (cambio lettere) e permutazione (scambio posizioni). Le macchine a rotori come Enigma usano un odometro per creare una chiave lunghissima.",
+                "date": "09-02-2026"
             }
         ],
         "5EI - SER": [
