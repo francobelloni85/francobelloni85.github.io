@@ -66,6 +66,12 @@
                 "url": "https://notebooklm.google.com/notebook/af9fc9bc-79ca-4852-9fc3-c142eb4c6c11",
                 "description": "La crittografia usa sostituzione (cambio lettere) e permutazione (scambio posizioni). Le macchine a rotori come Enigma usano un odometro per creare una chiave lunghissima.",
                 "date": "09-02-2026"
+            },
+            {
+                "title": "Lezione 12 – Feistel Network",
+                "url": "https://notebooklm.google.com/notebook/b21f0a74-9dbd-4584-9b9f-df09cd87a972",
+                "description": "La rete di Feistel è un algoritmo a blocchi che usa XOR, funzioni iterative e sottochiavi per cifrare dati.",
+                "date": "11-02-2026"
             }
         ],
         "5EI - SER": [
