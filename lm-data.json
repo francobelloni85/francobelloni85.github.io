@@ -140,6 +140,12 @@
                 "url": "https://notebooklm.google.com/notebook/6c2d35b1-79d3-431d-9353-748f2ef46374",
                 "description": "I protocolli Go-Back-N e Selective Repeat gestiscono la sliding window nel TCP. In GBN, il ricevitore usa ACK cumulativi e scarta pacchetti fuori ordine.",
                 "date": "06-02-2026"
+            },
+            {
+                "title": "Lezione 13 – TCP byte",
+                "url": "https://notebooklm.google.com/notebook/48422957-37b8-4d84-a975-b6e7427029f3",
+                "description": "Questi documenti analizzano il funzionamento del protocollo TCP, focalizzandosi sulla gestione dei numeri di sequenza e degli acknowledgment (ACK). A differenza di altri sistemi, il TCP non numera i singoli pacchetti, ma utilizza il conteggio dei byte",
+                "date": "13-02-2026"
             }
         ],
         "4AI - SER": [
