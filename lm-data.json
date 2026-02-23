@@ -84,7 +84,13 @@
                 "url": "https://notebooklm.google.com/notebook/e0c5555f-8756-46b6-a9b0-66d0f0e5cd47",
                 "description": "Vengono inoltre definiti i pilastri della sicurezza, tra cui la riservatezza, l'integrità dei dati e la non ripudiabilità, essenziali per garantire l'autenticità nelle comunicazioni digitali",
                 "date": "18-02-2026"
-            }
+            },
+            {
+                "title": "Lezione 15 – RSA",
+                "url": "https://notebooklm.google.com/notebook/0908e8e2-a2e0-4159-bbbd-16155ec2d273",
+                "description": "Questi appunti illustrano i concetti fondamentali della crittografia asimmetrica, focalizzandosi in particolare sull'algoritmo RSA e sulla gestione delle comunicazioni sicure tra soggetti",
+                "date": "23-02-2026"
+            }           
         ],
         "5EI - SER": [
             {
@@ -158,6 +164,12 @@
                 "url": "https://notebooklm.google.com/notebook/48422957-37b8-4d84-a975-b6e7427029f3",
                 "description": "Questi documenti analizzano il funzionamento del protocollo TCP, focalizzandosi sulla gestione dei numeri di sequenza e degli acknowledgment (ACK). A differenza di altri sistemi, il TCP non numera i singoli pacchetti, ma utilizza il conteggio dei byte",
                 "date": "13-02-2026"
+            },
+            {
+                "title": "Lezione 14 – TCP timeout",
+                "url": "https://notebooklm.google.com/notebook/9c9fc458-577d-4149-9e1e-1bb2dd5ccf9e",
+                "description": "I documenti e la registrazione audio analizzano il meccanismo di timeout nel protocollo TCP, essenziale per gestire la perdita di dati in rete",
+                "date": "19-02-2026"
             }
         ],
         "4AI - SER": [
