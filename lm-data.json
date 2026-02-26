@@ -246,6 +246,12 @@
                 "url": "https://notebooklm.google.com/notebook/c87f558a-105d-420a-9dd3-24f71b96904a",
                 "description": "Il testo illustra il protocollo ARP, usato per associare un IP noto al MAC address mancante tramite messaggi in broadcast. La lezione copre anche la configurazione base di switch Cisco.",
                 "date": "02-02-2026"
+            },
+            {
+                "title": "Lezione 14 – Wifi",
+                "url": "https://notebooklm.google.com/notebook/0dea0ba0-1832-4142-bd5d-26c2a700725f",
+                "description": "Questi appunti illustrano i concetti fondamentali delle comunicazioni wireless e del funzionamento delle reti Wi-Fi. Il materiale distingue tra diverse metodologie di accesso al mezzo, confrontando l'efficienza della partizione del canale rispetto all'accesso casuale",
+                "date": "26-02-2026"
             }
         ],
         "1AE - INF": [
