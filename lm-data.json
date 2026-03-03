@@ -170,7 +170,13 @@
                 "url": "https://notebooklm.google.com/notebook/9c9fc458-577d-4149-9e1e-1bb2dd5ccf9e",
                 "description": "I documenti e la registrazione audio analizzano il meccanismo di timeout nel protocollo TCP, essenziale per gestire la perdita di dati in rete",
                 "date": "19-02-2026"
-            }
+            },
+            {
+                "title": "Lezione 15 – TCP Flow Control",
+                "url": "https://notebooklm.google.com/notebook/19c3b48c-2839-4f59-a7bf-42c6e322c0b8",
+                "description": "Queste fonti illustrano il funzionamento del controllo di flusso nel protocollo TCP, focalizzandosi sulla gestione del buffer di ricezione per prevenire la perdita di dati. ",
+                "date": "27-02-2026"
+            }  
         ],
         "4AI - SER": [
             {
