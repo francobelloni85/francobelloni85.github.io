@@ -258,6 +258,12 @@
                 "url": "https://notebooklm.google.com/notebook/0dea0ba0-1832-4142-bd5d-26c2a700725f",
                 "description": "Questi appunti illustrano i concetti fondamentali delle comunicazioni wireless e del funzionamento delle reti Wi-Fi. Il materiale distingue tra diverse metodologie di accesso al mezzo, confrontando l'efficienza della partizione del canale rispetto all'accesso casuale",
                 "date": "26-02-2026"
+            }, 
+            {
+                "title": "Lezione 15 – Nodo nascosto",
+                "url": "https://notebooklm.google.com/notebook/9b4d57a6-8968-4905-bd34-a17f5e0fd3fc",
+                "description": "Questi appunti illustrano il problema del nodo nascosto all'interno delle reti wireless, dove i dispositivi comunicano con un access point centrale ma non riescono a rilevarsi a vicenda.",
+                "date": "04-03-2026"
             }
         ],
         "1AE - INF": [
