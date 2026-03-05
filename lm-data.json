@@ -264,6 +264,12 @@
                 "url": "https://notebooklm.google.com/notebook/9b4d57a6-8968-4905-bd34-a17f5e0fd3fc",
                 "description": "Questi appunti illustrano il problema del nodo nascosto all'interno delle reti wireless, dove i dispositivi comunicano con un access point centrale ma non riescono a rilevarsi a vicenda.",
                 "date": "04-03-2026"
+            },
+            {
+                "title": "Lezione 16 – Introduzione IP",
+                "url": "https://notebooklm.google.com/notebook/74a3eb0b-646d-49ce-8283-0bd92a50d3ef",
+                "description": "Questi appunti illustrano i concetti fondamentali del networking e del protocollo Internet Protocol (IP).",
+                "date": "05-03-2026"
             }
         ],
         "1AE - INF": [
