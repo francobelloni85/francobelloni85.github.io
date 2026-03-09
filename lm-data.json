@@ -90,7 +90,13 @@
                 "url": "https://notebooklm.google.com/notebook/0908e8e2-a2e0-4159-bbbd-16155ec2d273",
                 "description": "Questi appunti illustrano i concetti fondamentali della crittografia asimmetrica, focalizzandosi in particolare sull'algoritmo RSA e sulla gestione delle comunicazioni sicure tra soggetti",
                 "date": "23-02-2026"
-            }           
+            },
+            {
+                "title": "Lezione 15 – RSA numeri",
+                "url": "https://notebooklm.google.com/notebook/117fb077-a801-4833-a9f0-daf3c19f2ded",
+                "description": " Il sistema si basa sull'utilizzo di numeri primi molto grandi e sulla difficoltà computazionale della loro fattorizzazione, un processo che richiederebbe anni anche ai computer più potenti.",
+                "date": "09-03-2026"
+            }
         ],
         "5EI - SER": [
             {
