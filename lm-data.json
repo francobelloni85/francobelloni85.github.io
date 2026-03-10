@@ -344,6 +344,12 @@
                 "url": "https://notebooklm.google.com/notebook/52d880f0-1e70-4eab-8239-4a63984d1e49",
                 "description": "Queste fonti costituiscono una dispensa didattica focalizzata sui fondamenti dell'informatica e sulla storia delle reti.",
                 "date": "03-03-2026"
+            },
+            {
+                "title": "Lezione 13 – Servizi internet",
+                "url": "https://notebooklm.google.com/notebook/48f53b52-34a3-4c0c-8ea7-69bba92a9cba",
+                "description": "Questi appunti illustrano il funzionamento tecnico di Internet, definendolo come una vasta interconnessione globale di reti eterogenee che comunicano tramite protocolli standardizzati",
+                "date": "10-03-2026"
             }
         ],
         "1BE - INF": [
@@ -429,6 +435,12 @@
                 "title": "Lezione 14 – Ripasso algebra",
                 "url": "https://notebooklm.google.com/notebook/0824ebb7-91f9-43a6-85a4-152fcd41796c",
                 "description": "Esercizi di ripasso per Algebra di boole",
+                "date": "03-03-2026"
+            },
+            {
+                "title": "Lezione 15 – VPN",
+                "url": "https://notebooklm.google.com/notebook/4687f2c3-e914-4d91-8ede-892309584472",
+                "description": " I documenti classificano inoltre le tipologie di rete in base alla loro estensione, dalle PAN personali alle LAN locali",
                 "date": "03-03-2026"
             }
         ]
