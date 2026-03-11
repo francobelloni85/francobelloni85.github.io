@@ -96,6 +96,12 @@
                 "url": "https://notebooklm.google.com/notebook/117fb077-a801-4833-a9f0-daf3c19f2ded",
                 "description": " Il sistema si basa sull'utilizzo di numeri primi molto grandi e sulla difficoltà computazionale della loro fattorizzazione, un processo che richiederebbe anni anche ai computer più potenti.",
                 "date": "09-03-2026"
+            },
+            {
+                "title": "Lezione 17 – RSA phi",
+                "url": "https://notebooklm.google.com/notebook/623e86dd-eae5-42d2-9e59-6d7d98cce9c2",
+                "description": "Le fonti forniscono una spiegazione tecnica dell'algoritmo di crittografia RSA, illustrando il funzionamento delle funzioni trapdoor che garantiscono la sicurezza del sistema",
+                "date": "11-03-2026"
             }
         ],
         "5EI - SER": [
