@@ -36,7 +36,7 @@
                 "url": "https://notebooklm.google.com/notebook/409acaaf-c9ba-4d5f-b072-8452ef08e7ce",
                 "description": "I testi e gli appunti grafici forniti illustrano i concetti fondamentali della sicurezza informatica (Virus) e delle architetture cloud.",
                 "date": "13-01-2026"
-            } ,
+            },
             {
                 "title": "Lezione 7 – 5 caratteristiche cloud",
                 "url": "https://notebooklm.google.com/notebook/dcfc61ed-f7ad-4441-bbbb-e2c2c12b5b10",
@@ -188,7 +188,7 @@
                 "url": "https://notebooklm.google.com/notebook/19c3b48c-2839-4f59-a7bf-42c6e322c0b8",
                 "description": "Queste fonti illustrano il funzionamento del controllo di flusso nel protocollo TCP, focalizzandosi sulla gestione del buffer di ricezione per prevenire la perdita di dati. ",
                 "date": "27-02-2026"
-            }  
+            }
         ],
         "4AI - SER": [
             {
@@ -208,15 +208,13 @@
                 "url": "https://notebooklm.google.com/notebook/57c01076-6a00-4ecb-b614-e41b3ab9fed2",
                 "description": "Metodi fondamentali per condividere un unico canale di comunicazione tra più host.",
                 "date": "27-11-2025"
-            }
-            ,
+            },
             {
                 "title": "Lezione 4 – Introduzione data link layer",
                 "url": "https://notebooklm.google.com/notebook/1a65f3d7-5ac5-4a54-ac21-ed2cecb8cdd2",
                 "description": "Questi appunti illustrano il funzionamento del livello data link nel modello di rete, focalizzandosi sul processo di incapsulamento dei dati provenienti dai livelli superiori.",
                 "date": "17-12-2025"
-            }
-            ,
+            },
             {
                 "title": "Lezione 5 – Scopo del data link layer",
                 "url": "https://notebooklm.google.com/notebook/32ea4689-d73d-496c-a32a-308c76dc0220",
@@ -270,7 +268,7 @@
                 "url": "https://notebooklm.google.com/notebook/0dea0ba0-1832-4142-bd5d-26c2a700725f",
                 "description": "Questi appunti illustrano i concetti fondamentali delle comunicazioni wireless e del funzionamento delle reti Wi-Fi. Il materiale distingue tra diverse metodologie di accesso al mezzo, confrontando l'efficienza della partizione del canale rispetto all'accesso casuale",
                 "date": "26-02-2026"
-            }, 
+            },
             {
                 "title": "Lezione 15 – Nodo nascosto",
                 "url": "https://notebooklm.google.com/notebook/9b4d57a6-8968-4905-bd34-a17f5e0fd3fc",
@@ -308,7 +306,7 @@
                 "url": "https://notebooklm.google.com/notebook/20c894ef-fda1-482d-8146-45ff9762194c",
                 "description": "Interfaccia grafica e linea di comando SO",
                 "date": "09-12-2025"
-            }, 
+            },
             {
                 "title": "Lezione 5 – Introduzione sistema binario",
                 "url": "https://notebooklm.google.com/notebook/8c76397e-c34a-4465-98fb-cbe8310bbb03",
@@ -382,7 +380,7 @@
                 "url": "https://notebooklm.google.com/notebook/2791f41d-363b-4c65-b746-51a5f99dd0a5",
                 "description": "Categoria dei vari software e delle licenze associate",
                 "date": "09-12-2025"
-            }, 
+            },
             {
                 "title": "Lezione 5 – Introduzione sistema binario",
                 "url": "https://notebooklm.google.com/notebook/77bf4160-749d-4f73-943a-5b4c9f063919",
@@ -448,6 +446,159 @@
                 "url": "https://notebooklm.google.com/notebook/4687f2c3-e914-4d91-8ede-892309584472",
                 "description": " I documenti classificano inoltre le tipologie di rete in base alla loro estensione, dalle PAN personali alle LAN locali",
                 "date": "03-03-2026"
+            }
+        ],
+        "Verso la maturità": [
+            {
+                "title": "Lezione 1 – Integrità del dato: Message Digest e funzioni Hash (MD5, SHA).",
+                "url": "https://notebooklm.google.com/notebook/1416fb0d-4717-46a0-84a7-68f5833beba5",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 2 – La triade della sicurezza: Autenticazione, Autorizzazione e Non Ripudio (AAA).",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 3 – Firma Digitale, Certificati (RSA + Hash) e Certification Authority.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 4 – Scambio delle chiavi: Protocollo Diffie-Hellman e sicurezza delle sessioni.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 5 – TCP 3-Way Handshake: Gestione delle connessioni e tipi di servizio.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 6 – Controllo della Congestione TCP",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 7 – Evoluzione di UDP: Nuovi protocolli (QUIC), HTTP/3 e servizi Real-time.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 8 – Introduzione Livello 7 + HTTP/HTTPS e il concetto di sessione (Cookie/Token).",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Ripasso DNS + NAT avanzato",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 11 - VLAN e Tagging (802.1Q)",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 12 – Firewalling: Logica delle ACL (Access Control List) e filtraggio pacchetti.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            }{
+                "title": "Lezione 11 - VLAN e Tagging (802.1Q)",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 12 – Firewalling: Logica delle ACL (Access Control List) e filtraggio pacchetti.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            }{
+                "title": "Lezione 13 - Firewall avanzati: Stateful Inspection, Proxy Server e NGFW.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 14 –  Architettura DMZ: Progettazione della 'Zona Demilitarizzata' a due zone",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 15 - Analisi e Prevenzione: Sistemi IDS (Rilevamento) e IPS (Prevenzione)",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 16 – VPN Intro: Tunneling, Incapsulamento, Intranet ed Extranet.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            }{
+                "title": "Lezione 17 - Tipologie: Remote-access VPN vs Site-to-Site VPN.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 18 – IPSec Parte 1: Modalità Transport vs Tunnel.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },{
+                "title": "Lezione 19 - IPSec Parte 2: Protocolli AH (Integrità) ed ESP (Cifratura).",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 20 – SSL/TLS VPN: Architettura, Handshake e Record Protocol.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            }{
+                "title": "Lezione 21 - IoT Architecture: Identificazione (RFID, NFC, Beacon) e livelli.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 21 – IoT Wireless: Corto raggio (ZigBee, BLE) vs Lungo raggio (LoRaWAN).",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 22 – Protocolli IoT: MQTT (Publish/Subscribe) e CoAP.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 23 – Elaborazione dati: Edge Computing, Fog e Cloud.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 24 – Industry 4.0: Smart Factory, Manutenzione predittiva e Sicurezza IoT.",
+                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "description": "-",
+                "date": "01-01-2026"
             }
         ]
     }
