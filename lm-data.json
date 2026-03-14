@@ -498,104 +498,104 @@
                 "date": "01-01-2026"
             },
             {
-                "title": "Ripasso DNS + NAT avanzato",
+                "title": "Lezione 9 - Ripasso DNS + NAT avanzato",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 11 - VLAN e Tagging (802.1Q)",
+                "title": "Lezione 10 - VLAN e Tagging (802.1Q)",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 12 – Firewalling: Logica delle ACL (Access Control List) e filtraggio pacchetti.",
+                "title": "Lezione 11 – Firewalling: Logica delle ACL (Access Control List) e filtraggio pacchetti.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             }{
-                "title": "Lezione 11 - VLAN e Tagging (802.1Q)",
+                "title": "Lezione 12 - VLAN e Tagging (802.1Q)",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 12 – Firewalling: Logica delle ACL (Access Control List) e filtraggio pacchetti.",
+                "title": "Lezione 13 – Firewalling: Logica delle ACL (Access Control List) e filtraggio pacchetti.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             }{
-                "title": "Lezione 13 - Firewall avanzati: Stateful Inspection, Proxy Server e NGFW.",
+                "title": "Lezione 14 - Firewall avanzati: Stateful Inspection, Proxy Server e NGFW.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 14 –  Architettura DMZ: Progettazione della 'Zona Demilitarizzata' a due zone",
+                "title": "Lezione 15 –  Architettura DMZ: Progettazione della 'Zona Demilitarizzata' a due zone",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 15 - Analisi e Prevenzione: Sistemi IDS (Rilevamento) e IPS (Prevenzione)",
+                "title": "Lezione 16 - Analisi e Prevenzione: Sistemi IDS (Rilevamento) e IPS (Prevenzione)",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 16 – VPN Intro: Tunneling, Incapsulamento, Intranet ed Extranet.",
+                "title": "Lezione 17 – VPN Intro: Tunneling, Incapsulamento, Intranet ed Extranet.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             }{
-                "title": "Lezione 17 - Tipologie: Remote-access VPN vs Site-to-Site VPN.",
+                "title": "Lezione 18 - Tipologie: Remote-access VPN vs Site-to-Site VPN.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 18 – IPSec Parte 1: Modalità Transport vs Tunnel.",
+                "title": "Lezione 19 – IPSec Parte 1: Modalità Transport vs Tunnel.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },{
-                "title": "Lezione 19 - IPSec Parte 2: Protocolli AH (Integrità) ed ESP (Cifratura).",
+                "title": "Lezione 20 - IPSec Parte 2: Protocolli AH (Integrità) ed ESP (Cifratura).",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 20 – SSL/TLS VPN: Architettura, Handshake e Record Protocol.",
+                "title": "Lezione 21 – SSL/TLS VPN: Architettura, Handshake e Record Protocol.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             }{
-                "title": "Lezione 21 - IoT Architecture: Identificazione (RFID, NFC, Beacon) e livelli.",
+                "title": "Lezione 22 - IoT Architecture: Identificazione (RFID, NFC, Beacon) e livelli.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 21 – IoT Wireless: Corto raggio (ZigBee, BLE) vs Lungo raggio (LoRaWAN).",
+                "title": "Lezione 23 – IoT Wireless: Corto raggio (ZigBee, BLE) vs Lungo raggio (LoRaWAN).",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 22 – Protocolli IoT: MQTT (Publish/Subscribe) e CoAP.",
+                "title": "Lezione 24 – Protocolli IoT: MQTT (Publish/Subscribe) e CoAP.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 23 – Elaborazione dati: Edge Computing, Fog e Cloud.",
+                "title": "Lezione 25 – Elaborazione dati: Edge Computing, Fog e Cloud.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 24 – Industry 4.0: Smart Factory, Manutenzione predittiva e Sicurezza IoT.",
+                "title": "Lezione 26 – Industry 4.0: Smart Factory, Manutenzione predittiva e Sicurezza IoT.",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
