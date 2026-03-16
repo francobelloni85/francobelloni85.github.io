@@ -114,6 +114,12 @@
                 "url": "https://notebooklm.google.com/notebook/223a5d98-b24e-4964-aa31-fd5b7147f9d0",
                 "description": "Esempio completo di come funziona il protocollo.",
                 "date": "13-03-2026"
+            },
+            {
+                "title": "Lezione 20 – hash",
+                "url": "https://notebooklm.google.com/notebook/f7d24af8-f937-4f15-97ac-19d33e2cfb42",
+                "description": "Questi appunti illustrano i principi fondamentali della crittografia asimmetrica, focalizzandosi sull'algoritmo RSA per garantire la riservatezza e l'autenticità tra due interlocutori. Il materiale introduce poi le funzioni hash, descritte come strumenti per trasformare grandi quantità di dati in stringhe fisse e compatte per verificarne l'integrità. ",
+                "date": "16-03-2026"
             }
         ],
         "5EI - SER": [
