@@ -102,6 +102,18 @@
                 "url": "https://notebooklm.google.com/notebook/623e86dd-eae5-42d2-9e59-6d7d98cce9c2",
                 "description": "Le fonti forniscono una spiegazione tecnica dell'algoritmo di crittografia RSA, illustrando il funzionamento delle funzioni trapdoor che garantiscono la sicurezza del sistema",
                 "date": "11-03-2026"
+            },
+            {
+                "title": "Lezione 18 – RSA decriptare",
+                "url": "https://notebooklm.google.com/notebook/1e491e0c-9925-4dce-b767-bb9199e43e72",
+                "description": "Come funziona decriptare",
+                "date": "12-03-2026"
+            },
+            {
+                "title": "Lezione 19 – RSA esempio completo",
+                "url": "https://notebooklm.google.com/notebook/223a5d98-b24e-4964-aa31-fd5b7147f9d0",
+                "description": "Esempio completo di come funziona il protocollo.",
+                "date": "13-03-2026"
             }
         ],
         "5EI - SER": [
