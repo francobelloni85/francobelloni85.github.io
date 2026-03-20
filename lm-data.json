@@ -80,7 +80,7 @@
                 "date": "16-02-2026"
             },
             {
-                "title": "Lezione 14 – Principi della sicurezza",
+                "title": "Lezione 14 – Principi della sicurezza + AES",
                 "url": "https://notebooklm.google.com/notebook/e0c5555f-8756-46b6-a9b0-66d0f0e5cd47",
                 "description": "Vengono inoltre definiti i pilastri della sicurezza, tra cui la riservatezza, l'integrità dei dati e la non ripudiabilità, essenziali per garantire l'autenticità nelle comunicazioni digitali",
                 "date": "18-02-2026"
@@ -116,10 +116,16 @@
                 "date": "13-03-2026"
             },
             {
-                "title": "Lezione 20 – hash",
+                "title": "Lezione 20 – Hash",
                 "url": "https://notebooklm.google.com/notebook/f7d24af8-f937-4f15-97ac-19d33e2cfb42",
                 "description": "Questi appunti illustrano i principi fondamentali della crittografia asimmetrica, focalizzandosi sull'algoritmo RSA per garantire la riservatezza e l'autenticità tra due interlocutori. Il materiale introduce poi le funzioni hash, descritte come strumenti per trasformare grandi quantità di dati in stringhe fisse e compatte per verificarne l'integrità. ",
                 "date": "16-03-2026"
+            },
+            {
+                "title": "Lezione 21 – La Triade della Sicurezza e la Firma Digitale RSA",
+                "url": "https://notebooklm.google.com/notebook/e2306291-cc73-4918-a80e-9bf569ab85ed",
+                "description": "Le fonti analizzano i principi fondamentali della sicurezza informatica, focalizzandosi sulla crittografia asimmetrica e l'uso delle chiavi pubbliche e private.",
+                "date": "18-03-2026"
             }
         ],
         "5EI - SER": [
@@ -205,6 +211,12 @@
                 "title": "Lezione 15 – TCP Flow Control",
                 "url": "https://notebooklm.google.com/notebook/19c3b48c-2839-4f59-a7bf-42c6e322c0b8",
                 "description": "Queste fonti illustrano il funzionamento del controllo di flusso nel protocollo TCP, focalizzandosi sulla gestione del buffer di ricezione per prevenire la perdita di dati. ",
+                "date": "27-02-2026"
+            },
+            {
+                "title": "Lezione 16 – 3 way handshake e congestione",
+                "url": "https://notebooklm.google.com/notebook/ade1ca4f-f847-4de1-a79e-2dbf8d6427a9",
+                "description": "Le fonti spiegano il funzionamento del protocollo TCP, descrivendolo come un sistema affidabile e orientato alla connessione per lo scambio di dati in rete.",
                 "date": "27-02-2026"
             }
         ],
@@ -294,10 +306,22 @@
                 "date": "04-03-2026"
             },
             {
-                "title": "Lezione 16 – Introduzione IP",
+                "title": "Lezione 16 – Introduzione IP ",
                 "url": "https://notebooklm.google.com/notebook/74a3eb0b-646d-49ce-8283-0bd92a50d3ef",
-                "description": "Questi appunti illustrano i concetti fondamentali del networking e del protocollo Internet Protocol (IP).",
+                "description": "(NO AUDIO) uesti appunti illustrano i concetti fondamentali del networking e del protocollo Internet Protocol (IP).",
                 "date": "05-03-2026"
+            },
+            {
+                "title": "Lezione 17 – Perchè usiamo IP",
+                "url": "https://notebooklm.google.com/notebook/b8284335-b710-442d-b4f9-e16515f50e2e",
+                "description": "Il testo illustra il passaggio dal secondo al terzo livello della pila ISO/OSI, spiegando perché l'indirizzo MAC non sia adatto a gestire la comunicazione su scala globale. ",
+                "date": "18-03-2026"
+            },
+            {
+                "title": "Lezione 18 – Indirizzi pubblici e privati",
+                "url": "https://notebooklm.google.com/notebook/551a96db-6e82-43e4-a3a2-a682bea426de",
+                "description": "Il testo illustra il passaggio dal secondo al terzo livello della pila ISO/OSI, spiegando perché l'indirizzo MAC non sia adatto a gestire la comunicazione su scala globale. ",
+                "date": "19-03-2026"
             }
         ],
         "1AE - INF": [
@@ -374,7 +398,13 @@
                 "date": "10-03-2026"
             },
             {
-                "title": "Lezione 14 – Correzione verifica Boole",
+                "title": "Lezione 14 – Reti",
+                "url": "https://notebooklm.google.com/notebook/e7005b76-dcc7-4cfe-b12b-1ae01a9fe539",
+                "description": "La lezione spiega i concetti fondamentali delle reti informatiche, ripercorrendo la loro evoluzione storica da ARPANET a Internet e illustrando le differenze di resilienza tra le architetture client-server e peer-to-peer",
+                "date": "16-03-2026"
+            },
+            {
+                "title": "Lezione 15 – Correzione verifica Boole",
                 "url": "https://notebooklm.google.com/notebook/4a7ffd6d-2476-47c8-a6fd-6f19d846d490",
                 "description": "Correzione della verifica del sistema binario.",
                 "date": "20-03-2026"
