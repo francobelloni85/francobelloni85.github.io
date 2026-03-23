@@ -218,6 +218,12 @@
                 "url": "https://notebooklm.google.com/notebook/ade1ca4f-f847-4de1-a79e-2dbf8d6427a9",
                 "description": "Le fonti spiegano il funzionamento del protocollo TCP, descrivendolo come un sistema affidabile e orientato alla connessione per lo scambio di dati in rete.",
                 "date": "27-02-2026"
+            },
+            {
+                "title": "Lezione 17 – Quick e introduzione HTTP + Cloudfare",
+                "url": "https://notebooklm.google.com/notebook/97212593-ce40-43f9-95ab-7d9237198527",
+                "description": "Per risolvere queste criticità nasce QUIC, un protocollo innovativo che implementa le funzioni avanzate del TCP direttamente sopra la struttura leggera di UDP",
+                "date": "27-03-2026"
             }
         ],
         "4AI - SER": [
