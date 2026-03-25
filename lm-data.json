@@ -223,7 +223,13 @@
                 "title": "Lezione 17 – Quick e introduzione HTTP + Cloudfare",
                 "url": "https://notebooklm.google.com/notebook/97212593-ce40-43f9-95ab-7d9237198527",
                 "description": "Per risolvere queste criticità nasce QUIC, un protocollo innovativo che implementa le funzioni avanzate del TCP direttamente sopra la struttura leggera di UDP",
-                "date": "27-03-2026"
+                "date": "24-03-2026"
+            },
+            {
+                "title": "Lezione 18 HTTP",
+                "url": "https://notebooklm.google.com/notebook/9d1f9703-78fb-466d-ac9f-83adbc9484f4",
+                "description": "Questi materiali didattici offrono una panoramica tecnica sul funzionamento del protocollo HTTP e le sue evoluzioni.",
+                "date": "25-03-2026"
             }
         ],
         "4AI - SER": [
@@ -328,6 +334,12 @@
                 "url": "https://notebooklm.google.com/notebook/551a96db-6e82-43e4-a3a2-a682bea426de",
                 "description": "Il testo illustra il passaggio dal secondo al terzo livello della pila ISO/OSI, spiegando perché l'indirizzo MAC non sia adatto a gestire la comunicazione su scala globale. ",
                 "date": "19-03-2026"
+            },
+             {
+                "title": "Lezione 19 – Viaggio di un pacchettto IP",
+                "url": "https://notebooklm.google.com/notebook/c926ab8b-2be9-467f-afa8-d3ba4df99aeb",
+                "description": "Questi materiali didattici illustrano il viaggio di un pacchetto dati all'interno di una rete informatica, spiegando come le informazioni si muovano tra diversi dispositivi. Attraverso l'esempio di Alice, Bob e una stampante.",
+                "date": "25-03-2026"
             }
         ],
         "1AE - INF": [
@@ -576,19 +588,31 @@
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 10 - VLAN e Tagging (802.1Q)",
-                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "title": "Lezione 9A - ICMP",
+                "url": "https://notebooklm.google.com/notebook/e08236bb-ff94-420d-aae4-2b4e5eb32e0e",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 11 – Firewalling: Logica delle ACL (Access Control List) e filtraggio pacchetti.",
-                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "title": "Lezione 10A - DNS",
+                "url": "https://notebooklm.google.com/notebook/f74f0919-cf8a-4ed9-85a5-d3af46ad928e",
+                "description": "-",
+                "date": "01-01-2026"
+            },            
+            {
+                "title": "Lezione 10B- Ripasso NAT",
+                "url": "https://notebooklm.google.com/notebook/a1f9527d-e595-4851-bece-6fe4fb027f3b",
                 "description": "-",
                 "date": "01-01-2026"
             },
             {
-                "title": "Lezione 12 - VLAN e Tagging (802.1Q)",
+                "title": "Lezione 11 – VLAN e Tagging (802.1Q)",
+                "url": "https://notebooklm.google.com/notebook/ce00dcd7-a3b7-46df-b3ac-31e0ee5bb012",
+                "description": "-",
+                "date": "01-01-2026"
+            },
+            {
+                "title": "Lezione 12 - ",
                 "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
                 "description": "-",
                 "date": "01-01-2026"
