@@ -340,6 +340,12 @@
                 "url": "https://notebooklm.google.com/notebook/c926ab8b-2be9-467f-afa8-d3ba4df99aeb",
                 "description": "Questi materiali didattici illustrano il viaggio di un pacchetto dati all'interno di una rete informatica, spiegando come le informazioni si muovano tra diversi dispositivi. Attraverso l'esempio di Alice, Bob e una stampante.",
                 "date": "25-03-2026"
+            },
+             {
+                "title": "Lezione 20 – Viaggio di un pacchettto IP 2",
+                "url": "https://notebooklm.google.com/notebook/5c191786-9900-4267-973f-9aef4101a35d",
+                "description": "Questi materiali didattici illustrano il funzionamento del routing e il viaggio di un pacchetto dati attraverso l'architettura gerarchica di Internet.",
+                "date": "26-03-2026"
             }
         ],
         "1AE - INF": [
@@ -432,7 +438,13 @@
                 "url": "https://notebooklm.google.com/notebook/9c06cf3f-9f23-4026-b21c-c7b3247030d7",
                 "description": " La lezione esplora le diverse tecnologie di accesso, confrontando i limiti della vecchia ADSL in rame con le elevate prestazioni della fibra ottica e delle moderne reti cellulari 4G e 5G.",
                 "date": "24-03-2026"
-            }
+            },
+            {
+                "title": "Lezione 17 – Correzione compiti",
+                "url": "https://notebooklm.google.com/notebook/981db0e5-4025-4051-93b8-27fd2536e715",
+                "description": "Questi documenti mostrano la correzione di esercizi scolastici riguardanti l'algebra di Boole e la logica digitale.",
+                "date": "31-03-2026"
+            }           
         ],
         "1BE - INF": [
             {
@@ -536,7 +548,13 @@
                 "url": "https://notebooklm.google.com/notebook/ba7f6f2e-c776-416e-bd73-02dcddad7835",
                 "description": "Blocchi iniziali per iniziare a programmare",
                 "date": "30-03-2026"
-            }
+            },
+            {
+                "title": "Lezione 18 – Correzione compiti",
+                "url": "https://notebooklm.google.com/notebook/502f1f80-d342-4dce-8e6a-ffacdd5e3a6d",
+                "description": "Questi documenti mostrano la correzione di esercizi scolastici riguardanti l'algebra di Boole e la logica digitale.",
+                "date": "31-03-2026"
+            } 
         ],
         "5EI - Verso la maturità": [
             {
@@ -589,7 +607,7 @@
             },
             {
                 "title": "Lezione 9 - Mail e FTP",
-                "url": "https://notebooklm.google.com/notebook/772cf4c5-efc6-46c5-9866-c8dc1476129f",
+                "url": "https://notebooklm.google.com/notebook/6ac0979b-b8a7-49c6-ae55-131bfcab2794",
                 "description": "-",
                 "date": "01-01-2026"
             },
