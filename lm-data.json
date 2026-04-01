@@ -226,10 +226,16 @@
                 "date": "24-03-2026"
             },
             {
-                "title": "Lezione 18 HTTP",
+                "title": "Lezione 18 - HTTP",
                 "url": "https://notebooklm.google.com/notebook/9d1f9703-78fb-466d-ac9f-83adbc9484f4",
                 "description": "Questi materiali didattici offrono una panoramica tecnica sul funzionamento del protocollo HTTP e le sue evoluzioni.",
                 "date": "25-03-2026"
+            },
+            {
+                "title": "Lezione 19 - Mail, FTP, ICPM",
+                "url": "https://notebooklm.google.com/notebook/c91be0fd-31ce-4936-990e-0ce4f8007ed9",
+                "description": "La lezione ha illustrato il funzionamento, i protocolli e gli aspetti di sicurezza dei servizi di posta elettronica, del trasferimento dei file , e degli strumenti di diagnostica di rete attraverso il protocollo ICMP",
+                "date": "01-04-2026"
             }
         ],
         "4AI - SER": [
@@ -346,7 +352,13 @@
                 "url": "https://notebooklm.google.com/notebook/5c191786-9900-4267-973f-9aef4101a35d",
                 "description": "Questi materiali didattici illustrano il funzionamento del routing e il viaggio di un pacchetto dati attraverso l'architettura gerarchica di Internet.",
                 "date": "26-03-2026"
-            }
+            },
+            {
+                "title": "Lezione 21 – Header ipv4",
+                "url": "https://notebooklm.google.com/notebook/68ee2505-3482-4791-ab40-505dbd96105f",
+                "description": "I documenti forniti illustrano la struttura e i campi principali dell'intestazione del pacchetto IP, analizzando in modo particolare il funzionamento del Time To Live (TTL) ",
+                "date": "01-04-2026"
+            }            
         ],
         "1AE - INF": [
             {
@@ -444,7 +456,13 @@
                 "url": "https://notebooklm.google.com/notebook/981db0e5-4025-4051-93b8-27fd2536e715",
                 "description": "Questi documenti mostrano la correzione di esercizi scolastici riguardanti l'algebra di Boole e la logica digitale.",
                 "date": "31-03-2026"
-            }           
+            },           
+            {
+                "title": "Lezione 18 – Introduzione algoritmi",
+                "url": "https://notebooklm.google.com/notebook/42213baf-e8f8-489e-81b3-498f4354fb1f",
+                "description": "Questi documenti mostrano la correzione di esercizi scolastici riguardanti l'algebra di Boole e la logica digitale.",
+                "date": "01-04-2026"
+            } 
         ],
         "1BE - INF": [
             {
