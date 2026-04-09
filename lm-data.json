@@ -242,7 +242,13 @@
                 "url": "https://notebooklm.google.com/notebook/e54cdf5f-8e62-4ee6-b567-2537aa0dd15f",
                 "description": "Ripasso delle tecnologia NAT (PAT) e VLAN",
                 "date": "08-04-2026"
-            }
+            },
+            {
+                "title": "Lezione 21 - Firewall e introduzione DMZ",
+                "url": "https://notebooklm.google.com/notebook/42643489-f499-4909-884a-4fca6f1dbf2b",
+                "description": "Funzionamento dei firewall, regole e DMZ.",
+                "date": "09-04-2026"
+            }            
         ],
         "4AI - SER": [
             {
@@ -370,6 +376,12 @@
                 "url": "https://notebooklm.google.com/notebook/5c1ff7a1-bdef-4bff-8577-b39a42aa5cd6",
                 "description": "Storia delle classi di IP e spostamento verso CIDR.",
                 "date": "08-04-2026"
+            },
+            {
+                "title": "Lezione 23 – NAT",
+                "url": "https://notebooklm.google.com/notebook/34d56476-f9d8-4b82-9bbd-b2fd1f6a76a7",
+                "description": "Nat, una delle risposte alla fine degli indirizzi Ipv4.",
+                "date": "09-04-2026"
             }
         ],
         "1AE - INF": [
