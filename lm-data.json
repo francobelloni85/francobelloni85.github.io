@@ -248,7 +248,13 @@
                 "url": "https://notebooklm.google.com/notebook/42643489-f499-4909-884a-4fca6f1dbf2b",
                 "description": "Funzionamento dei firewall, regole e DMZ.",
                 "date": "09-04-2026"
-            }            
+            },
+            {
+                "title": "Lezione 22 - Advanced Firewall Architectures",
+                "url": "https://notebooklm.google.com/notebook/42643489-f499-4909-884a-4fca6f1dbf2b",
+                "description": "Il testo analizza l'evoluzione tecnologica dei firewall, distinguendo tra i modelli stateless, che filtrano i pacchetti singolarmente senza memoria, e quelli stateful, capaci di gestire le connessioni monitorando le porte aperte. Una parte centrale della spiegazione riguarda i firewall di nuova generazione.",
+                "date": "15-04-2026"
+            }           
         ],
         "4AI - SER": [
             {
@@ -382,7 +388,13 @@
                 "url": "https://notebooklm.google.com/notebook/34d56476-f9d8-4b82-9bbd-b2fd1f6a76a7",
                 "description": "Nat, una delle risposte alla fine degli indirizzi Ipv4.",
                 "date": "09-04-2026"
-            }
+            },
+            {
+                "title": "Lezione 24 – DHCP",
+                "url": "https://notebooklm.google.com/notebook/4344e1c9-01f1-4229-bfa3-6634d515f1be",
+                "description": "Come ottenere un indirizzo ip privato",
+                "date": "15-04-2026"
+            }            
         ],
         "1AE - INF": [
             {
