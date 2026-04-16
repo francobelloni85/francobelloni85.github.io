@@ -394,7 +394,13 @@
                 "url": "https://notebooklm.google.com/notebook/4344e1c9-01f1-4229-bfa3-6634d515f1be",
                 "description": "Come ottenere un indirizzo ip privato",
                 "date": "15-04-2026"
-            }            
+            },
+            {
+                "title": "Lezione 25 – Introduzioni algoritmi",
+                "url": "https://notebooklm.google.com/notebook/135616b4-5227-494e-b672-85003ec97951",
+                "description": "La trattazione prosegue analizzando gli algoritmi di routing, definiti come strumenti essenziali per individuare il percorso ottimale basandosi su criteri di velocità o congestione.",
+                "date": "16-04-2026"
+            }                
         ],
         "1AE - INF": [
             {
