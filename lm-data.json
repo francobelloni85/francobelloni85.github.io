@@ -126,6 +126,12 @@
                 "url": "https://notebooklm.google.com/notebook/e2306291-cc73-4918-a80e-9bf569ab85ed",
                 "description": "Le fonti analizzano i principi fondamentali della sicurezza informatica, focalizzandosi sulla crittografia asimmetrica e l'uso delle chiavi pubbliche e private.",
                 "date": "18-03-2026"
+            },
+            {
+                "title": "Lezione 22 – Introduzione VPN",
+                "url": "https://notebooklm.google.com/notebook/5396f8ad-88e4-4786-82ae-baebb9395ad6",
+                "description": "Introduzione e funzionamento della VPN casalinga",
+                "date": "17-04-2026"
             }
         ],
         "5EI - SER": [
@@ -251,10 +257,22 @@
             },
             {
                 "title": "Lezione 22 - Advanced Firewall Architectures",
-                "url": "https://notebooklm.google.com/notebook/42643489-f499-4909-884a-4fca6f1dbf2b",
+                "url": "https://notebooklm.google.com/notebook/d6336525-6290-48be-af73-db859db4a387",
                 "description": "Il testo analizza l'evoluzione tecnologica dei firewall, distinguendo tra i modelli stateless, che filtrano i pacchetti singolarmente senza memoria, e quelli stateful, capaci di gestire le connessioni monitorando le porte aperte. Una parte centrale della spiegazione riguarda i firewall di nuova generazione.",
                 "date": "15-04-2026"
-            }           
+            },
+            {
+                "title": "Lezione 23 - Network Intrusion Detection Systems",
+                "url": "https://notebooklm.google.com/notebook/436a8644-92e4-4615-bc01-cbbd02d6e74c",
+                "description": "Un punto centrale riguarda la distinzione tra i sistemi IDS (Intrusion Detection System), che monitorano e copiano il traffico in modo non bloccante, e i sistemi IPS (Intrusion Prevention System), capaci di intervenire attivamente per fermare le minacce",
+                "date": "17-04-2026"
+            },
+            {
+                "title": "Lezione 23B – Network Intrusion Detection Systems B",
+                "url": "https://notebooklm.google.com/notebook/5396f8ad-88e4-4786-82ae-baebb9395ad6",
+                "description": "Le fonti analizzate esaminano le strategie di sicurezza informatica e il funzionamento delle VPN all'interno di una rete aziendale o domestica",
+                "date": "17-04-2026"
+            }
         ],
         "4AI - SER": [
             {
