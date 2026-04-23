@@ -132,6 +132,12 @@
                 "url": "https://notebooklm.google.com/notebook/5396f8ad-88e4-4786-82ae-baebb9395ad6",
                 "description": "Introduzione e funzionamento della VPN casalinga",
                 "date": "17-04-2026"
+            },
+            {
+                "title": "Lezione 23 – VPN site-to-site",
+                "url": "https://notebooklm.google.com/notebook/c9f709cb-ce0b-4198-97df-b0f6544fc3c0",
+                "description": "Il testo analizza il funzionamento delle VPN in ambito aziendale, distinguendo tra le diverse modalità di interconnessione delle sedi tramite reti pubbliche o private.",
+                "date": "23-04-2026"
             }
         ],
         "5EI - SER": [
@@ -424,6 +430,12 @@
                 "url": "https://notebooklm.google.com/notebook/d999a132-8476-4bed-a399-38a967e88557",
                 "description": "Le fonti trascritte documentano una lezione scolastica sull'algoritmo di Dijkstra, utilizzato per determinare i percorsi minimi all'interno di una rete. Attraverso un esercizio pratico alla lavagna, i partecipanti illustrano come calcolare i costi di instradamento tra i nodi.",
                 "date": "22-04-2026"
+            },
+            {
+                "title": "Lezione 27 – The Bellman-Ford Equation",
+                "url": "https://notebooklm.google.com/notebook/6e301b27-1325-4785-9752-a76edd86b25a",
+                "description": "Il video spiega il funzionamento dell'algoritmo Bellman-Ford, un sistema di instradamento vettoriale di distanza utilizzato nelle reti informatiche per calcolare i percorsi più brevi. ",
+                "date": "23-04-2026"
             }
         ],
         "1AE - INF": [
