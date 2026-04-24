@@ -138,6 +138,18 @@
                 "url": "https://notebooklm.google.com/notebook/c9f709cb-ce0b-4198-97df-b0f6544fc3c0",
                 "description": "Il testo analizza il funzionamento delle VPN in ambito aziendale, distinguendo tra le diverse modalità di interconnessione delle sedi tramite reti pubbliche o private.",
                 "date": "23-04-2026"
+            },
+            {
+                "title": "Lezione 24 – IPSec",
+                "url": "https://notebooklm.google.com/notebook/0c41d23d-01d7-4703-87f6-7515800b01ac",
+                "description": "L'autore introduce il concetto di MPLS, in cui il traffico viene etichettato da un provider per garantire qualità del servizio senza però offrire una crittografia nativa dei dati. Successivamente, l'attenzione si sposta sulle VPN e sul framework IPsec",
+                "date": "24-04-2026"
+            },
+            {
+                "title": "Lezione 25 – TLS",
+                "url": "https://notebooklm.google.com/notebook/67c47d52-7609-4f91-93ab-8276eeb1cf74",
+                "description": "Il testo analizza il funzionamento dei protocolli di sicurezza informatica TLS e IPsec, spiegando come garantiscono l’autenticazione, la riservatezza e l’integrità dei dati. Viene descritto nel dettaglio il processo di handshake TLS.",
+                "date": "24-04-2026"
             }
         ],
         "5EI - SER": [
