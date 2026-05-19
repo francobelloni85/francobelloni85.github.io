@@ -1,360 +1,581 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="utf-8" />
-  <title>Notebook LM – </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Francesco Belloni — Progetti</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg:        #fff7ef;   /* panna pastello */
+    --surface:   #ffffff;   /* card */
+    --ink:       #2b1d12;   /* testo principale */
+    --ink-soft:  #6b5544;   /* testo secondario */
+    --ink-faint: #b5a294;   /* meta */
+    --line:      #f1e3d2;   /* bordo morbido */
 
-  <!-- Google Font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap"
-    rel="stylesheet"
-  />
+    --orange:    #ff9a6b;   /* arancione pastello */
+    --orange-deep:#ef7a44;  /* hover */
+    --peach:     #ffe3cf;   /* accent fill */
+    --peach-soft:#fff0e2;   /* very soft */
 
-  <!-- Bootstrap base -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+    --radius:    18px;
+    --radius-sm: 10px;
 
-  <!-- CSS personalizzato -->
-  <link rel="stylesheet" href="style.css" />
+    --font:      "Space Grotesk", system-ui, sans-serif;
+    --mono:      "JetBrains Mono", ui-monospace, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ===== HEADER ===== */
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 80px 40px 50px;
+  }
+  .hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--ink-soft);
+    margin-bottom: 22px;
+  }
+  .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--orange);
+  }
+  .hero__title {
+    font-weight: 600;
+    font-size: clamp(40px, 6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -.025em;
+    color: var(--ink);
+    text-wrap: balance;
+    margin-bottom: 20px;
+  }
+  .hero__title em {
+    font-style: normal;
+    color: var(--orange-deep);
+  }
+  .hero__lede {
+    max-width: 620px;
+    font-size: 17px;
+    color: var(--ink-soft);
+    margin-bottom: 26px;
+  }
+  .hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 13px;
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink);
+    transition: background .2s, border-color .2s, transform .2s;
+  }
+  .chip:hover {
+    background: var(--peach-soft);
+    border-color: var(--orange);
+    transform: translateY(-1px);
+  }
+  .chip--primary {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: #fff;
+  }
+  .chip--primary:hover {
+    background: var(--orange-deep);
+    border-color: var(--orange-deep);
+  }
+  .chip__arr { font-size: 11px; opacity: .8; }
+
+  /* ===== GRID ===== */
+  .grid {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px 40px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+
+  /* ===== CARD ===== */
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: transform .25s ease, border-color .25s, box-shadow .25s;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--orange);
+    box-shadow: 0 14px 30px -16px rgba(239, 122, 68, .35);
+  }
+
+  /* MEDIA — pastel placeholder per ogni progetto */
+  .card__media {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    background: var(--peach-soft);
+    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+  }
+  .card__media::before {
+    content: attr(data-tag);
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: 2;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .14em;
+    color: var(--ink-soft);
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.85);
+    border: 1px solid var(--line);
+  }
+
+  /* "thumbnail" abstract: due cerchi pastello sovrapposti */
+  .thumb {
+    position: relative;
+    width: 75%;
+    height: 75%;
+  }
+  .thumb__a, .thumb__b {
+    position: absolute;
+    border-radius: 50%;
+  }
+  .thumb__a {
+    width: 60%; height: 80%;
+    left: 0; top: 10%;
+    background: var(--orange);
+    opacity: .85;
+  }
+  .thumb__b {
+    width: 55%; height: 70%;
+    right: 0; bottom: 5%;
+    background: var(--peach);
+    border: 1.5px solid var(--orange);
+    mix-blend-mode: multiply;
+  }
+  .thumb__label {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink);
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  /* variazioni minime per dare un po' di rhythm (stesso layout, posizioni diverse) */
+  .v2 .thumb__a { left: auto; right: 0; }
+  .v2 .thumb__b { right: auto; left: 0; }
+  .v3 .thumb__a { width: 70%; height: 70%; top: 15%; }
+  .v3 .thumb__b { width: 50%; height: 50%; bottom: 8%; right: 5%; }
+  .v4 .thumb__a { width: 55%; height: 90%; }
+  .v4 .thumb__b { width: 60%; height: 60%; }
+  .v5 .thumb__a { width: 65%; height: 65%; top: 5%; left: 5%; }
+  .v5 .thumb__b { width: 65%; height: 65%; right: 5%; bottom: 5%; }
+
+  /* BODY */
+  .card__body {
+    padding: 22px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+  }
+  .card__num {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .14em;
+    color: var(--orange-deep);
+    text-transform: uppercase;
+  }
+  .card__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -.015em;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+  .card__desc {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    text-wrap: pretty;
+    flex: 1;
+  }
+  .card__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    margin-top: 4px;
+    padding: 9px 14px;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--bg);
+    transition: background .2s, border-color .2s, color .2s;
+  }
+  .card__cta span { transition: transform .25s; display: inline-block; }
+  .card__cta:hover {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: #fff;
+  }
+  .card__cta:hover span { transform: translateX(3px); }
+
+  /* ===== FOOTER ===== */
+  .foot {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 40px 60px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .foot__brand {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .foot__brand strong { color: var(--ink); font-weight: 500; }
+  .foot__links {
+    display: flex;
+    gap: 14px;
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .foot__links a:hover { color: var(--orange-deep); }
+  .foot__sep { color: var(--ink-faint); }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 920px) {
+    .hero { padding: 60px 24px 30px; }
+    .grid { padding: 20px 24px 50px; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+    .foot { padding: 30px 24px 50px; }
+  }
+  @media (max-width: 580px) {
+    .hero__title { font-size: 36px; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
 </head>
 <body>
-  <div id="app" class="page-shell">
-    <!-- Hero / intestazione -->
-    <section class="hero-card mb-3">
-      <div class="hero-pill">
-        <span class="hero-pill-dot"></span>
-        <span>LM Notebooks Board</span>
-      </div>
 
-      <h1 class="hero-title">Notebook LM – Informatica, SER, TEPI</h1>
-      <p class="hero-subtitle">
-        Un unico spazio dove studenti e studentesse trovano i notebook organizzati
-        per anno, classe e lezione, con breve descrizione e data.
-      </p>
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="hero__eyebrow">
+      <span class="dot"></span>
+      <span>Francesco Belloni · github</span>
+    </div>
+    <h1 class="hero__title">
+      Progetti, lezioni e <em>piccoli esperimenti</em>.
+    </h1>
+    <p class="hero__lede">
+      Una raccolta dei miei lavori — strumenti per la didattica, utility,
+      prototipi di AI e progetti universitari.
+    </p>
+    <div class="hero__meta">
+      <a class="chip chip--primary" href="https://github.com/francobelloni85" target="_blank" rel="noopener">
+        github <span class="chip__arr">↗</span>
+      </a>
+      <a class="chip" href="https://www.francescobelloni.it/" target="_blank" rel="noopener">
+        sito personale <span class="chip__arr">↗</span>
+      </a>
+    </div>
+  </header>
 
-      <div class="hero-badges">
-        <span class="hero-badge">
-          <strong>{{ totalYears }}</strong>&nbsp;anni scolastici
-        </span>
-        <span class="hero-badge">
-          <strong>{{ totalClasses }}</strong>&nbsp;classi
-        </span>
-        <span class="hero-badge">
-          <strong>{{ totalLessons }}</strong>&nbsp;lezioni
-        </span>
-      </div>
-    </section>
+  <!-- ===== GRID ===== -->
+  <main class="grid">
 
-    <!-- Pannello filtri -->
-    <section class="panel">
-      <div class="row g-3 align-items-start">
-        <div class="col-md-4">
-          <div class="filter-label">Anno</div>
-          <select
-            class="form-select"
-            v-model="selectedYear"
-          >
-            <option value="">Tutti gli anni</option>
-            <option
-              v-for="year in orderedYears"
-              :key="year"
-              :value="year"
-            >
-              {{ year }}
-            </option>
-          </select>
-        </div>
-
-        <div class="col-md-8">
-          <div class="filter-label">Ricerca veloce</div>
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Cerca nel titolo o nella descrizione (es. 'Algoritmi', 'Reti', 'NotebookLM')"
-            v-model="searchQuery"
-          />
-          <div class="quick-filters">
-            <span
-              class="quick-chip"
-              @click="searchQuery = 'introduzione'"
-            >
-              Introduzione
-            </span>
-            <span
-              class="quick-chip"
-              @click="searchQuery = 'algoritmi'"
-            >
-              Algoritmi
-            </span>
-            <span
-              class="quick-chip"
-              @click="searchQuery = 'reti'"
-            >
-              Reti
-            </span>
-            <span
-              class="quick-chip"
-              @click="searchQuery = ''"
-            >
-              Azzera filtri
-            </span>
-          </div>
+    <!-- 1 -->
+    <article class="card">
+      <div class="card__media" data-tag="WEB · TEACHING">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">notebook lm</div>
         </div>
       </div>
-    </section>
-
-    <!-- Stato di caricamento / errore -->
-    <section class="mt-3 mb-2" v-if="loading || error">
-      <div
-        v-if="loading"
-        class="alert alert-info"
-        role="alert"
-      >
-        Caricamento dei dati dei notebook in corso.
+      <div class="card__body">
+        <div class="card__num">01</div>
+        <h2 class="card__title">Notebook LM delle Lezioni</h2>
+        <p class="card__desc">
+          Raccolta di Notebook LM derivati direttamente dalle spiegazioni in classe
+          per il supporto allo studio autonomo.
+        </p>
+        <a class="card__cta" href="https://lens.baobab.school/" target="_blank" rel="noopener">
+          apri il sito <span>→</span>
+        </a>
       </div>
-      <div
-        v-else
-        class="alert alert-danger"
-        role="alert"
-      >
-        Errore nel caricamento dei dati dei notebook.
-      </div>
-    </section>
+    </article>
 
-    <!-- Nessun risultato -->
-    <section
-      v-if="!loading && !error && filteredYears.length === 0"
-      class="mt-3"
-    >
-      <div class="alert alert-warning" role="alert">
-        Nessuna lezione trovata con i filtri correnti.
-      </div>
-    </section>
-
-    <!-- Elenco anni / classi / lezioni -->
-    <section v-if="!loading && !error">
-      <div
-        v-for="year in filteredYears"
-        :key="year"
-      >
-        <div class="year-header">
-          <div>
-            <p class="year-title">Anno scolastico {{ year }}</p>
-            <p class="year-meta mb-0">
-              {{ Object.keys(data[year]).length }} classi in elenco
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div
-            class="col-12"
-            v-for="(lessons, className) in filteredClassesByYear(year)"
-            :key="className"
-          >
-            <article class="class-card p-3">
-              <header class="class-header">
-                <h2 class="class-name">
-                  <span class="class-tag">Classe {{ className }}</span>
-                </h2>
-                <div class="class-meta-badges">
-                  <span class="chip chip-strong">
-                    {{ lessons.length }} lezioni
-                  </span>
-                  <button
-                    type="button"
-                    class="toggle-btn"
-                    @click="toggleClass(year, className)"
-                  >
-                    <span
-                      class="toggle-icon"
-                      :class="{ open: isClassOpen(year, className) }"
-                    >
-                      ▶
-                    </span>
-                    <span v-if="isClassOpen(year, className)">Nascondi</span>
-                    <span v-else>Mostra</span>
-                  </button>
-                </div>
-              </header>
-
-              <ul
-                class="lessons-list"
-                v-if="isClassOpen(year, className)"
-              >
-                <li
-                  v-for="lesson in lessons"
-                  :key="year + '-' + className + '-' + lesson.title"
-                  class="lesson-item"
-                >
-                  <a
-                    class="lesson-link"
-                    :href="lesson.url"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span>{{ lesson.title }}</span>
-                  </a>
-                  <div class="lesson-meta">
-                    <span v-if="lesson.date">
-                      Data: {{ formatDate(lesson.date) }}
-                    </span>
-                    <span v-if="lesson.description">
-                      {{ lesson.description }}
-                    </span>
-                  </div>
-                </li>
-              </ul>
-
-              <p
-                v-else
-                class="lessons-collapsed-text mb-0"
-              >
-                Lezioni nascoste. Clicca su “Mostra” per vedere l’elenco.
-              </p>
-            </article>
-          </div>
+    <!-- 2 -->
+    <article class="card">
+      <div class="card__media v2" data-tag="PERSONAL SITE">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">cv · portfolio</div>
         </div>
       </div>
-    </section>
-  </div>
+      <div class="card__body">
+        <div class="card__num">02</div>
+        <h2 class="card__title">francescobelloni.it</h2>
+        <p class="card__desc">
+          Pagina personale con i lavori e il CV. Il punto di partenza per
+          conoscermi un po' meglio.
+        </p>
+        <a class="card__cta" href="https://www.francescobelloni.it/" target="_blank" rel="noopener">
+          visita il sito <span>→</span>
+        </a>
+      </div>
+    </article>
 
-  <!-- Vue 3 via CDN -->
-  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <!-- 3 -->
+    <article class="card">
+      <div class="card__media v3" data-tag="AI · VIBE CODING">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">create-video</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">03</div>
+        <h2 class="card__title">create-video</h2>
+        <p class="card__desc">
+          Strumento automatizzato che trasforma testo dialogico grezzo in video-lezioni
+          verticali per TikTok/Reels. Flusso "Listening Challenge" con agenti AI per
+          parsing, sintesi audio e assemblaggio video.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/create-video" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-  <script>
-    const { createApp } = Vue;
+    <!-- 4 -->
+    <article class="card">
+      <div class="card__media v4" data-tag="PYTHON · TEACHING">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">corso base</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">04</div>
+        <h2 class="card__title">corso_base_programmazione</h2>
+        <p class="card__desc">
+          Esercizi Python introduttivi focalizzati sulla logica di base e sul
+          controllo del flusso. Pensati per chi parte da zero.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/corso_base_programmazione" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-    createApp({
-      data() {
-        return {
-          data: {},          // dati grezzi da lm-data.json
-          loading: true,
-          error: false,
-          selectedYear: "",  // filtro anno
-          searchQuery: "",   // filtro testo
-          openClasses: {}    // stato open/closed per ogni classe
-        };
-      },
-      computed: {
-        orderedYears() {
-          return Object.keys(this.data)
-            .sort()
-            .reverse();
-        },
-        filteredYears() {
-          let years = this.selectedYear
-            ? [this.selectedYear]
-            : this.orderedYears;
+    <!-- 5 -->
+    <article class="card">
+      <div class="card__media v5" data-tag="AI · ML INTRO">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">introduzione-ai</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">05</div>
+        <h2 class="card__title">introduzione-ai</h2>
+        <p class="card__desc">
+          Script Python ed esempi pratici per introdurre i concetti fondamentali
+          di AI e Machine Learning. Pensata per accompagnare una lezione
+          interattiva.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/introduzione-ai" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-          if (!this.searchQuery.trim()) {
-            return years;
-          }
+    <!-- 6 -->
+    <article class="card">
+      <div class="card__media" data-tag="UNI · DATA MINING">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">data mining</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">06</div>
+        <h2 class="card__title">DataMiningUni</h2>
+        <p class="card__desc">
+          Progetto universitario in due parti: un sistema di raccomandazioni e un
+          classificatore bot/umano realizzato tramite tecniche di clustering non
+          supervisionato.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/DataMiningUni" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-          const q = this.searchQuery.toLowerCase();
+    <!-- 7 -->
+    <article class="card">
+      <div class="card__media v2" data-tag="TOOL · CLASSROOM">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">noisy pomodoro</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">07</div>
+        <h2 class="card__title">noisy_pomodoro</h2>
+        <p class="card__desc">
+          Timer a intervalli con rilevamento del rumore ambientale per
+          ottimizzare la gestione della classe.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/noisy_pomodoro" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-          return years.filter(year => {
-            const classes = this.data[year];
-            return Object.keys(classes).some(className => {
-              return classes[className].some(lesson =>
-                (lesson.title && lesson.title.toLowerCase().includes(q)) ||
-                (lesson.description && lesson.description.toLowerCase().includes(q))
-              );
-            });
-          });
-        },
-        totalYears() {
-          return Object.keys(this.data).length || 0;
-        },
-        totalClasses() {
-          return Object.values(this.data).reduce((acc, classesObj) => {
-            return acc + Object.keys(classesObj).length;
-          }, 0);
-        },
-        totalLessons() {
-          return Object.values(this.data).reduce((acc, classesObj) => {
-            return acc + Object.values(classesObj).reduce((innerAcc, lessons) => innerAcc + lessons.length, 0);
-          }, 0);
-        }
-      },
-      methods: {
-        keyForClass(year, className) {
-          return `${year}::${className}`;
-        },
-        isClassOpen(year, className) {
-          const key = this.keyForClass(year, className);
-          // default = chiusa; è aperta solo se esplicitamente true
-          return this.openClasses[key] === true;
-        },
-        toggleClass(year, className) {
-          const key = this.keyForClass(year, className);
-          const current = this.isClassOpen(year, className);
-          this.openClasses = {
-            ...this.openClasses,
-            [key]: !current
-          };
-        },
-        filteredClassesByYear(year) {
-          const classes = this.data[year];
-          const q = this.searchQuery.trim().toLowerCase();
+    <!-- 8 -->
+    <article class="card">
+      <div class="card__media v3" data-tag="DESKTOP · FTP">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">ftp uploader</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">08</div>
+        <h2 class="card__title">Multi-Site-FTP-Uploader</h2>
+        <p class="card__desc">
+          Applicazione desktop per l'upload parallelo e simultaneo di file
+          su molteplici server FTP.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/Multi-Site-FTP-Uploader" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-          if (!q) {
-            return classes;
-          }
+    <!-- 9 -->
+    <article class="card">
+      <div class="card__media v4" data-tag="UTILITY · WINDOWS">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">lock unlock</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">09</div>
+        <h2 class="card__title">LockUnlockTester</h2>
+        <p class="card__desc">
+          Utility per testare la modalità kiosk in Windows tramite il blocco
+          selettivo degli input esterni.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/LockUnlockTester" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-          const result = {};
+    <!-- 10 -->
+    <article class="card">
+      <div class="card__media v5" data-tag="EMBEDDED · STM32">
+        <div class="thumb">
+          <div class="thumb__a"></div>
+          <div class="thumb__b"></div>
+          <div class="thumb__label">metro train</div>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__num">10</div>
+        <h2 class="card__title">MetroTrainController</h2>
+        <p class="card__desc">
+          Progetto universitario su microcontrollore STM32F103RB: simulazione di
+          un controller per treno della metropolitana, con gestione dei task e
+          lettura/scrittura di registri.
+        </p>
+        <a class="card__cta" href="https://github.com/francobelloni85/MetroTrainController" target="_blank" rel="noopener">
+          vedi su github <span>→</span>
+        </a>
+      </div>
+    </article>
 
-          Object.keys(classes).forEach(className => {
-            const lessons = classes[className].filter(lesson => {
-              const inTitle = lesson.title &&
-                lesson.title.toLowerCase().includes(q);
-              const inDesc = lesson.description &&
-                lesson.description.toLowerCase().includes(q);
-              return inTitle || inDesc;
-            });
-            if (lessons.length > 0) {
-              result[className] = lessons;
-            }
-          });
+  </main>
 
-          return result;
-        },
-        formatDate(dateStr) {
-          if (!dateStr) return "";
+  <!-- ===== FOOTER ===== -->
+  <footer class="foot">
+    <div class="foot__brand">
+      <strong>Franco Belloni</strong> · progetti, lezioni, esperimenti
+    </div>
+    <div class="foot__links">
+      <a href="https://github.com/francobelloni85" target="_blank" rel="noopener">github</a>
+      <span class="foot__sep">·</span>
+      <a href="https://www.francescobelloni.it/" target="_blank" rel="noopener">sito</a>
+      <span class="foot__sep">·</span>
+      <a href="https://lens.baobab.school/" target="_blank" rel="noopener">notebook lm</a>
+    </div>
+  </footer>
 
-          if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-            const [y, m, d] = dateStr.split("-").map(Number);
-            const date = new Date(y, m - 1, d);
-            return date.toLocaleDateString("it-IT", {
-              year: "numeric",
-              month: "2-digit",
-              day: "2-digit"
-            });
-          }
-
-          return dateStr;
-        }
-      },
-      created() {
-        fetch("lm-data.json")
-          .then(r => {
-            if (!r.ok) throw new Error("HTTP error " + r.status);
-            return r.json();
-          })
-          .then(json => {
-            this.data = json;
-            this.loading = false;
-          })
-          .catch(err => {
-            console.error(err);
-            this.error = true;
-            this.loading = false;
-          });
-      }
-    }).mount("#app");
-  </script>
 </body>
 </html>
